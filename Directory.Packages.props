@@ -1,0 +1,30 @@
+<Project>
+  <PropertyGroup>
+    <!-- Lets the pins below override vulnerable TRANSITIVE versions too. -->
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <!-- Central Package Management. Versions verified on nuget.org, 19 Nov 2026.
+       .NET 10 LTS line: keep Microsoft.* runtime packages on 10.0.x. -->
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.QuickGrid" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.15" />
+    <PackageVersion Include="Microsoft.AspNetCore.SystemWebAdapters.CoreServices" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.Extensions.TimeProvider.Testing" Version="10.11.0" />
+    <PackageVersion Include="Yarp.ReverseProxy" Version="2.3.0" />
+    <PackageVersion Include="CoreWCF.Primitives" Version="1.9.1" />
+    <PackageVersion Include="CoreWCF.Http" Version="1.9.1" />
+    <PackageVersion Include="System.ServiceModel.Http" Version="10.1.0" />
+    <PackageVersion Include="System.ServiceModel.Primitives" Version="10.1.0" />
+    <PackageVersion Include="xunit.v3" Version="4.0.3" />
+    <PackageVersion Include="BenchmarkDotNet" Version="0.15.8" />
+    <!-- Security pin: CoreWCF 1.9.1 pulls Microsoft.AspNetCore.WebUtilities 2.3.10
+         transitively; GHSA-6527-9fp8-r4x6 (CVE-2026-118750, 10 Nov 2026) is fixed in 2.3.14. -->
+    <PackageVersion Include="Microsoft.AspNetCore.WebUtilities" Version="2.3.14" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="MeridianPortal.Web.SiteMaster" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Meridian Parts Portal</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            Meridian Parts &mdash; <asp:LoginName runat="server" FormatString="Signed in as {0}" />
+            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutPageUrl="~/Account/Login.aspx" />
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,7155 @@
+[
+  {
+    "Id": "edge-empty",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-qty-49",
+    "Subtotal": 53.90,
+    "Discount": 0.00,
+    "Freight": 25.34,
+    "Tax": 6.34,
+    "Total": 85.58,
+    "DisplayTotal": "$85.58",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-qty-50",
+    "Subtotal": 52.25,
+    "Discount": 0.00,
+    "Freight": 25.35,
+    "Tax": 6.21,
+    "Total": 83.81,
+    "DisplayTotal": "$83.81",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-qty-99",
+    "Subtotal": 103.46,
+    "Discount": 0.00,
+    "Freight": 25.69,
+    "Tax": 10.33,
+    "Total": 139.48,
+    "DisplayTotal": "$139.48",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-qty-100",
+    "Subtotal": 99.00,
+    "Discount": 0.00,
+    "Freight": 25.7,
+    "Tax": 9.98,
+    "Total": 134.68,
+    "DisplayTotal": "$134.68",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-net-exactly-500",
+    "Subtotal": 500.00,
+    "Discount": 0.00,
+    "Freight": 33.96,
+    "Tax": 38.71,
+    "Total": 572.67,
+    "DisplayTotal": "$572.67",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-net-500.01",
+    "Subtotal": 500.01,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 36.25,
+    "Total": 536.26,
+    "DisplayTotal": "$536.26",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-gold-lowercase",
+    "Subtotal": 259.80,
+    "Discount": 0.00,
+    "Freight": 29.48,
+    "Tax": 23.14,
+    "Total": 312.42,
+    "DisplayTotal": "$312.42",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-region-null",
+    "Subtotal": 129.90,
+    "Discount": 3.90,
+    "Freight": 27.24,
+    "Tax": 12.26,
+    "Total": 165.50,
+    "DisplayTotal": "$165.50",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-region-lowercase",
+    "Subtotal": 129.90,
+    "Discount": 3.90,
+    "Freight": 27.24,
+    "Tax": 12.26,
+    "Total": 165.50,
+    "DisplayTotal": "$165.50",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-hazard-lowercase",
+    "Subtotal": 37.50,
+    "Discount": 0.00,
+    "Freight": 25.42,
+    "Tax": 0.00,
+    "Total": 62.92,
+    "DisplayTotal": "$62.92",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "edge-negative-qty",
+    "Subtotal": 6.00,
+    "Discount": 0.45,
+    "Freight": 25.07,
+    "Tax": 2.45,
+    "Total": 33.07,
+    "DisplayTotal": "$33.07",
+    "Warnings": [
+      "Ignored line GSK-12: quantity -1"
+    ]
+  },
+  {
+    "Id": "edge-midpoint-discount",
+    "Subtotal": 0.60,
+    "Discount": 0.04,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.56,
+    "DisplayTotal": "$25.56",
+    "Warnings": []
+  },
+  {
+    "Id": "edge-midpoint-tax",
+    "Subtotal": 0.06,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.06,
+    "DisplayTotal": "$27.06",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0000",
+    "Subtotal": 5724.01,
+    "Discount": 171.72,
+    "Freight": 0,
+    "Tax": 444.18,
+    "Total": 5996.47,
+    "DisplayTotal": "$5,996.47",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0001",
+    "Subtotal": 68489.32,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 5479.15,
+    "Total": 73968.47,
+    "DisplayTotal": "$73,968.47",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0002",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0003",
+    "Subtotal": 20912.36,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1672.99,
+    "Total": 22585.35,
+    "DisplayTotal": "$22,585.35",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0004",
+    "Subtotal": 14314.28,
+    "Discount": 429.43,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 13884.85,
+    "DisplayTotal": "$13,884.85",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0005",
+    "Subtotal": 18852.57,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1508.21,
+    "Total": 20360.78,
+    "DisplayTotal": "$20,360.78",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0006",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0007",
+    "Subtotal": 1356.81,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 108.54,
+    "Total": 1465.35,
+    "DisplayTotal": "$1,465.35",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0008",
+    "Subtotal": 18356.29,
+    "Discount": 550.69,
+    "Freight": 0,
+    "Tax": 1424.45,
+    "Total": 19230.05,
+    "DisplayTotal": "$19,230.05",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0009",
+    "Subtotal": 53277.10,
+    "Discount": 3995.78,
+    "Freight": 0,
+    "Tax": 3572.90,
+    "Total": 52854.22,
+    "DisplayTotal": "$52,854.22",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0010",
+    "Subtotal": 78.02,
+    "Discount": 5.85,
+    "Freight": 26.54,
+    "Tax": 0.00,
+    "Total": 98.71,
+    "DisplayTotal": "$98.71",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0011",
+    "Subtotal": 21367.34,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1709.39,
+    "Total": 23076.73,
+    "DisplayTotal": "$23,076.73",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0012",
+    "Subtotal": 25433.74,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 25433.74,
+    "DisplayTotal": "$25,433.74",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0013",
+    "Subtotal": 39382.22,
+    "Discount": 2953.67,
+    "Freight": 0,
+    "Tax": 2914.28,
+    "Total": 39342.83,
+    "DisplayTotal": "$39,342.83",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0014",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0015",
+    "Subtotal": 9137.01,
+    "Discount": 685.28,
+    "Freight": 0,
+    "Tax": 676.14,
+    "Total": 9127.87,
+    "DisplayTotal": "$9,127.87",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0016",
+    "Subtotal": 5884.90,
+    "Discount": 441.37,
+    "Freight": 0,
+    "Tax": 435.48,
+    "Total": 5879.01,
+    "DisplayTotal": "$5,879.01",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0017",
+    "Subtotal": 51169.93,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4093.59,
+    "Total": 55263.52,
+    "DisplayTotal": "$55,263.52",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0018",
+    "Subtotal": 8177.11,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 654.17,
+    "Total": 8831.28,
+    "DisplayTotal": "$8,831.28",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0019",
+    "Subtotal": 10937.23,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 874.98,
+    "Total": 11812.21,
+    "DisplayTotal": "$11,812.21",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0020",
+    "Subtotal": 8644.39,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 691.55,
+    "Total": 9335.94,
+    "DisplayTotal": "$9,335.94",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0021",
+    "Subtotal": 6064.49,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 439.68,
+    "Total": 6504.17,
+    "DisplayTotal": "$6,504.17",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0022",
+    "Subtotal": 7683.73,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 614.70,
+    "Total": 8298.43,
+    "DisplayTotal": "$8,298.43",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0023",
+    "Subtotal": 13233.65,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 959.44,
+    "Total": 14193.09,
+    "DisplayTotal": "$14,193.09",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0024",
+    "Subtotal": 14279.85,
+    "Discount": 428.40,
+    "Freight": 0,
+    "Tax": 1108.12,
+    "Total": 14959.57,
+    "DisplayTotal": "$14,959.57",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0025",
+    "Subtotal": 9669.22,
+    "Discount": 725.19,
+    "Freight": 0,
+    "Tax": 715.52,
+    "Total": 9659.55,
+    "DisplayTotal": "$9,659.55",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0026",
+    "Subtotal": 713.87,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 57.11,
+    "Total": 770.98,
+    "DisplayTotal": "$770.98",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0027",
+    "Subtotal": 5010.25,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 400.82,
+    "Total": 5411.07,
+    "DisplayTotal": "$5,411.07",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0028",
+    "Subtotal": 23896.50,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 23896.50,
+    "DisplayTotal": "$23,896.50",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0029",
+    "Subtotal": 39727.52,
+    "Discount": 1191.83,
+    "Freight": 0,
+    "Tax": 3082.86,
+    "Total": 41618.55,
+    "DisplayTotal": "$41,618.55",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0030",
+    "Subtotal": 13819.47,
+    "Discount": 414.58,
+    "Freight": 0,
+    "Tax": 1072.39,
+    "Total": 14477.28,
+    "DisplayTotal": "$14,477.28",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0031",
+    "Subtotal": 2479.99,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 198.40,
+    "Total": 2678.39,
+    "DisplayTotal": "$2,678.39",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0032",
+    "Subtotal": 19645.65,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1571.65,
+    "Total": 21217.30,
+    "DisplayTotal": "$21,217.30",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0033",
+    "Subtotal": 47851.45,
+    "Discount": 1435.54,
+    "Freight": 0,
+    "Tax": 3365.15,
+    "Total": 49781.06,
+    "DisplayTotal": "$49,781.06",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0034",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0035",
+    "Subtotal": 15638.35,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1251.07,
+    "Total": 16889.42,
+    "DisplayTotal": "$16,889.42",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0036",
+    "Subtotal": 4782.75,
+    "Discount": 143.48,
+    "Freight": 0,
+    "Tax": 371.14,
+    "Total": 5010.41,
+    "DisplayTotal": "$5,010.41",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0037",
+    "Subtotal": 24444.77,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1772.25,
+    "Total": 26217.02,
+    "DisplayTotal": "$26,217.02",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0038",
+    "Subtotal": 862.88,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 862.88,
+    "DisplayTotal": "$862.88",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0039",
+    "Subtotal": 3797.15,
+    "Discount": 113.91,
+    "Freight": 0,
+    "Tax": 294.66,
+    "Total": 3977.90,
+    "DisplayTotal": "$3,977.90",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0040",
+    "Subtotal": 10246.11,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 10246.11,
+    "DisplayTotal": "$10,246.11",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0041",
+    "Subtotal": 8357.62,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 668.61,
+    "Total": 9026.23,
+    "DisplayTotal": "$9,026.23",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0042",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0043",
+    "Subtotal": 6840.06,
+    "Discount": 205.20,
+    "Freight": 0,
+    "Tax": 530.79,
+    "Total": 7165.65,
+    "DisplayTotal": "$7,165.65",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0044",
+    "Subtotal": 22597.87,
+    "Discount": 1694.84,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 20903.03,
+    "DisplayTotal": "$20,903.03",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0045",
+    "Subtotal": 19308.00,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1399.83,
+    "Total": 20707.83,
+    "DisplayTotal": "$20,707.83",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0046",
+    "Subtotal": 17165.70,
+    "Discount": 1287.43,
+    "Freight": 0,
+    "Tax": 1270.26,
+    "Total": 17148.53,
+    "DisplayTotal": "$17,148.53",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0047",
+    "Subtotal": 9763.99,
+    "Discount": 292.92,
+    "Freight": 0,
+    "Tax": 757.69,
+    "Total": 10228.76,
+    "DisplayTotal": "$10,228.76",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0048",
+    "Subtotal": 21110.55,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1688.84,
+    "Total": 22799.39,
+    "DisplayTotal": "$22,799.39",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0049",
+    "Subtotal": 12145.66,
+    "Discount": 910.92,
+    "Freight": 0,
+    "Tax": 898.78,
+    "Total": 12133.52,
+    "DisplayTotal": "$12,133.52",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0050",
+    "Subtotal": 2497.70,
+    "Discount": 187.33,
+    "Freight": 0,
+    "Tax": 184.83,
+    "Total": 2495.20,
+    "DisplayTotal": "$2,495.20",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0051",
+    "Subtotal": 4312.86,
+    "Discount": 129.39,
+    "Freight": 0,
+    "Tax": 303.30,
+    "Total": 4486.77,
+    "DisplayTotal": "$4,486.77",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0052",
+    "Subtotal": 17227.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1378.24,
+    "Total": 18606.21,
+    "DisplayTotal": "$18,606.21",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0053",
+    "Subtotal": 46526.02,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3373.14,
+    "Total": 49899.16,
+    "DisplayTotal": "$49,899.16",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0054",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0055",
+    "Subtotal": 8362.87,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 669.03,
+    "Total": 9031.90,
+    "DisplayTotal": "$9,031.90",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0056",
+    "Subtotal": 20526.65,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1642.13,
+    "Total": 22168.78,
+    "DisplayTotal": "$22,168.78",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0057",
+    "Subtotal": 17953.78,
+    "Discount": 538.61,
+    "Freight": 0,
+    "Tax": 1262.60,
+    "Total": 18677.77,
+    "DisplayTotal": "$18,677.77",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0058",
+    "Subtotal": 145.29,
+    "Discount": 0.00,
+    "Freight": 27.11,
+    "Tax": 13.79,
+    "Total": 186.19,
+    "DisplayTotal": "$186.19",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0059",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0060",
+    "Subtotal": 22316.54,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1785.32,
+    "Total": 24101.86,
+    "DisplayTotal": "$24,101.86",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0061",
+    "Subtotal": 54473.59,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3949.34,
+    "Total": 58422.93,
+    "DisplayTotal": "$58,422.93",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0062",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0063",
+    "Subtotal": 9605.76,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 768.46,
+    "Total": 10374.22,
+    "DisplayTotal": "$10,374.22",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0064",
+    "Subtotal": 879.39,
+    "Discount": 65.95,
+    "Freight": 0,
+    "Tax": 65.08,
+    "Total": 878.52,
+    "DisplayTotal": "$878.52",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0065",
+    "Subtotal": 91563.33,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 6638.34,
+    "Total": 98201.67,
+    "DisplayTotal": "$98,201.67",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0066",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0067",
+    "Subtotal": 4952.74,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 396.22,
+    "Total": 5348.96,
+    "DisplayTotal": "$5,348.96",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0068",
+    "Subtotal": 6615.81,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 529.26,
+    "Total": 7145.07,
+    "DisplayTotal": "$7,145.07",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0069",
+    "Subtotal": 48676.43,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3894.11,
+    "Total": 52570.54,
+    "DisplayTotal": "$52,570.54",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0070",
+    "Subtotal": 111.42,
+    "Discount": 0.00,
+    "Freight": 160.62,
+    "Tax": 0.00,
+    "Total": 272.04,
+    "DisplayTotal": "$272.04",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0071",
+    "Subtotal": 1586.42,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 126.91,
+    "Total": 1713.33,
+    "DisplayTotal": "$1,713.33",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0072",
+    "Subtotal": 4513.87,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 361.11,
+    "Total": 4874.98,
+    "DisplayTotal": "$4,874.98",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0073",
+    "Subtotal": 13678.73,
+    "Discount": 410.36,
+    "Freight": 0,
+    "Tax": 1061.47,
+    "Total": 14329.84,
+    "DisplayTotal": "$14,329.84",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0074",
+    "Subtotal": 4314.82,
+    "Discount": 129.44,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 4185.38,
+    "DisplayTotal": "$4,185.38",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0075",
+    "Subtotal": 2167.96,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 173.44,
+    "Total": 2341.40,
+    "DisplayTotal": "$2,341.40",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0076",
+    "Subtotal": 2943.24,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 235.46,
+    "Total": 3178.70,
+    "DisplayTotal": "$3,178.70",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0077",
+    "Subtotal": 27974.95,
+    "Discount": 839.25,
+    "Freight": 0,
+    "Tax": 2170.86,
+    "Total": 29306.56,
+    "DisplayTotal": "$29,306.56",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0078",
+    "Subtotal": 700.17,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 56.01,
+    "Total": 756.18,
+    "DisplayTotal": "$756.18",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0079",
+    "Subtotal": 9674.73,
+    "Discount": 290.24,
+    "Freight": 0,
+    "Tax": 750.76,
+    "Total": 10135.25,
+    "DisplayTotal": "$10,135.25",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0080",
+    "Subtotal": 25996.26,
+    "Discount": 1949.72,
+    "Freight": 0,
+    "Tax": 1923.72,
+    "Total": 25970.26,
+    "DisplayTotal": "$25,970.26",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0081",
+    "Subtotal": 38268.37,
+    "Discount": 2870.13,
+    "Freight": 0,
+    "Tax": 2831.86,
+    "Total": 38230.10,
+    "DisplayTotal": "$38,230.10",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0082",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0083",
+    "Subtotal": 11754.25,
+    "Discount": 352.63,
+    "Freight": 0,
+    "Tax": 912.13,
+    "Total": 12313.75,
+    "DisplayTotal": "$12,313.75",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0084",
+    "Subtotal": 3608.48,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 288.68,
+    "Total": 3897.16,
+    "DisplayTotal": "$3,897.16",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0085",
+    "Subtotal": 30006.37,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2175.46,
+    "Total": 32181.83,
+    "DisplayTotal": "$32,181.83",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0086",
+    "Subtotal": 360.21,
+    "Discount": 0.00,
+    "Freight": 28.10,
+    "Tax": 0.00,
+    "Total": 388.31,
+    "DisplayTotal": "$388.31",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0087",
+    "Subtotal": 17210.30,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1247.75,
+    "Total": 18458.05,
+    "DisplayTotal": "$18,458.05",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0088",
+    "Subtotal": 4573.06,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 365.84,
+    "Total": 4938.90,
+    "DisplayTotal": "$4,938.90",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0089",
+    "Subtotal": 33388.30,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2671.06,
+    "Total": 36059.36,
+    "DisplayTotal": "$36,059.36",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0090",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0091",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 1.81,
+    "Total": 26.81,
+    "DisplayTotal": "$26.81",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0092",
+    "Subtotal": 20678.82,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1654.31,
+    "Total": 22333.13,
+    "DisplayTotal": "$22,333.13",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0093",
+    "Subtotal": 61116.78,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4889.34,
+    "Total": 66006.12,
+    "DisplayTotal": "$66,006.12",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0094",
+    "Subtotal": 8.06,
+    "Discount": 0.00,
+    "Freight": 36.24,
+    "Tax": 0.00,
+    "Total": 44.30,
+    "DisplayTotal": "$44.30",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0095",
+    "Subtotal": 6389.01,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 463.20,
+    "Total": 6852.21,
+    "DisplayTotal": "$6,852.21",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0096",
+    "Subtotal": 12040.30,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 963.22,
+    "Total": 13003.52,
+    "DisplayTotal": "$13,003.52",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0097",
+    "Subtotal": 8022.11,
+    "Discount": 601.66,
+    "Freight": 0,
+    "Tax": 537.98,
+    "Total": 7958.43,
+    "DisplayTotal": "$7,958.43",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0098",
+    "Subtotal": 11691.27,
+    "Discount": 876.85,
+    "Freight": 0,
+    "Tax": 865.15,
+    "Total": 11679.57,
+    "DisplayTotal": "$11,679.57",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0099",
+    "Subtotal": 8077.46,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 646.20,
+    "Total": 8723.66,
+    "DisplayTotal": "$8,723.66",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0100",
+    "Subtotal": 18404.12,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 18404.12,
+    "DisplayTotal": "$18,404.12",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0101",
+    "Subtotal": 36229.93,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2626.67,
+    "Total": 38856.60,
+    "DisplayTotal": "$38,856.60",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0102",
+    "Subtotal": 8560.27,
+    "Discount": 642.02,
+    "Freight": 0,
+    "Tax": 633.46,
+    "Total": 8551.71,
+    "DisplayTotal": "$8,551.71",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0103",
+    "Subtotal": 6736.46,
+    "Discount": 505.23,
+    "Freight": 0,
+    "Tax": 498.50,
+    "Total": 6729.73,
+    "DisplayTotal": "$6,729.73",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0104",
+    "Subtotal": 5441.83,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 435.35,
+    "Total": 5877.18,
+    "DisplayTotal": "$5,877.18",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0105",
+    "Subtotal": 689.81,
+    "Discount": 51.74,
+    "Freight": 0,
+    "Tax": 51.05,
+    "Total": 689.12,
+    "DisplayTotal": "$689.12",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0106",
+    "Subtotal": 1082.77,
+    "Discount": 81.21,
+    "Freight": 0,
+    "Tax": 80.12,
+    "Total": 1081.68,
+    "DisplayTotal": "$1,081.68",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0107",
+    "Subtotal": 3316.57,
+    "Discount": 99.50,
+    "Freight": 0,
+    "Tax": 257.37,
+    "Total": 3474.44,
+    "DisplayTotal": "$3,474.44",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0108",
+    "Subtotal": 19498.05,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1559.84,
+    "Total": 21057.89,
+    "DisplayTotal": "$21,057.89",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0109",
+    "Subtotal": 17012.46,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1361.00,
+    "Total": 18373.46,
+    "DisplayTotal": "$18,373.46",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0110",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0111",
+    "Subtotal": 14989.55,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1199.16,
+    "Total": 16188.71,
+    "DisplayTotal": "$16,188.71",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0112",
+    "Subtotal": 23774.33,
+    "Discount": 1783.07,
+    "Freight": 0,
+    "Tax": 1759.30,
+    "Total": 23750.56,
+    "DisplayTotal": "$23,750.56",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0113",
+    "Subtotal": 13334.63,
+    "Discount": 1000.10,
+    "Freight": 0,
+    "Tax": 986.76,
+    "Total": 13321.29,
+    "DisplayTotal": "$13,321.29",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0114",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0115",
+    "Subtotal": 957.28,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 76.58,
+    "Total": 1033.86,
+    "DisplayTotal": "$1,033.86",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0116",
+    "Subtotal": 13271.59,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1061.73,
+    "Total": 14333.32,
+    "DisplayTotal": "$14,333.32",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0117",
+    "Subtotal": 18786.17,
+    "Discount": 1408.96,
+    "Freight": 0,
+    "Tax": 1390.18,
+    "Total": 18767.39,
+    "DisplayTotal": "$18,767.39",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0118",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0119",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0120",
+    "Subtotal": 12873.81,
+    "Discount": 965.54,
+    "Freight": 0,
+    "Tax": 952.66,
+    "Total": 12860.93,
+    "DisplayTotal": "$12,860.93",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0121",
+    "Subtotal": 31108.50,
+    "Discount": 2333.14,
+    "Freight": 0,
+    "Tax": 2302.03,
+    "Total": 31077.39,
+    "DisplayTotal": "$31,077.39",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0122",
+    "Subtotal": 11353.52,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 11353.52,
+    "DisplayTotal": "$11,353.52",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0123",
+    "Subtotal": 17501.99,
+    "Discount": 1312.65,
+    "Freight": 0,
+    "Tax": 1173.73,
+    "Total": 17363.07,
+    "DisplayTotal": "$17,363.07",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0124",
+    "Subtotal": 21472.73,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1717.82,
+    "Total": 23190.55,
+    "DisplayTotal": "$23,190.55",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0125",
+    "Subtotal": 18957.13,
+    "Discount": 1421.78,
+    "Freight": 0,
+    "Tax": 1271.31,
+    "Total": 18806.66,
+    "DisplayTotal": "$18,806.66",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0126",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0127",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0128",
+    "Subtotal": 35774.58,
+    "Discount": 1073.24,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 34701.34,
+    "DisplayTotal": "$34,701.34",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0129",
+    "Subtotal": 42546.89,
+    "Discount": 1276.41,
+    "Freight": 0,
+    "Tax": 3301.64,
+    "Total": 44572.12,
+    "DisplayTotal": "$44,572.12",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0130",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0131",
+    "Subtotal": 427.18,
+    "Discount": 0.00,
+    "Freight": 73.35,
+    "Tax": 40.04,
+    "Total": 540.57,
+    "DisplayTotal": "$540.57",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0132",
+    "Subtotal": 13935.53,
+    "Discount": 1045.16,
+    "Freight": 0,
+    "Tax": 1031.23,
+    "Total": 13921.60,
+    "DisplayTotal": "$13,921.60",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0133",
+    "Subtotal": 30565.17,
+    "Discount": 916.96,
+    "Freight": 0,
+    "Tax": 2371.86,
+    "Total": 32020.07,
+    "DisplayTotal": "$32,020.07",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0134",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0135",
+    "Subtotal": 13845.06,
+    "Discount": 1038.38,
+    "Freight": 0,
+    "Tax": 928.48,
+    "Total": 13735.16,
+    "DisplayTotal": "$13,735.16",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0136",
+    "Subtotal": 21234.82,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1698.79,
+    "Total": 22933.61,
+    "DisplayTotal": "$22,933.61",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0137",
+    "Subtotal": 46963.01,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3757.04,
+    "Total": 50720.05,
+    "DisplayTotal": "$50,720.05",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0138",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0139",
+    "Subtotal": 15718.07,
+    "Discount": 471.54,
+    "Freight": 0,
+    "Tax": 1219.72,
+    "Total": 16466.25,
+    "DisplayTotal": "$16,466.25",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0140",
+    "Subtotal": 6920.94,
+    "Discount": 519.07,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 6401.87,
+    "DisplayTotal": "$6,401.87",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0141",
+    "Subtotal": 63192.02,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 5055.36,
+    "Total": 68247.38,
+    "DisplayTotal": "$68,247.38",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0142",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0143",
+    "Subtotal": 11195.53,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 895.64,
+    "Total": 12091.17,
+    "DisplayTotal": "$12,091.17",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0144",
+    "Subtotal": 14665.76,
+    "Discount": 1099.93,
+    "Freight": 0,
+    "Tax": 1085.27,
+    "Total": 14651.10,
+    "DisplayTotal": "$14,651.10",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0145",
+    "Subtotal": 63567.24,
+    "Discount": 4767.54,
+    "Freight": 0,
+    "Tax": 4262.98,
+    "Total": 63062.68,
+    "DisplayTotal": "$63,062.68",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0146",
+    "Subtotal": 5366.15,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 5366.15,
+    "DisplayTotal": "$5,366.15",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0147",
+    "Subtotal": 14162.83,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1133.03,
+    "Total": 15295.86,
+    "DisplayTotal": "$15,295.86",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0148",
+    "Subtotal": 23201.64,
+    "Discount": 1740.12,
+    "Freight": 0,
+    "Tax": 1716.92,
+    "Total": 23178.44,
+    "DisplayTotal": "$23,178.44",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0149",
+    "Subtotal": 14672.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1173.78,
+    "Total": 15845.98,
+    "DisplayTotal": "$15,845.98",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0150",
+    "Subtotal": 109.82,
+    "Discount": 8.24,
+    "Freight": 29.89,
+    "Tax": 10.52,
+    "Total": 141.99,
+    "DisplayTotal": "$141.99",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0151",
+    "Subtotal": 309.21,
+    "Discount": 0.00,
+    "Freight": 26.08,
+    "Tax": 24.31,
+    "Total": 359.60,
+    "DisplayTotal": "$359.60",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0152",
+    "Subtotal": 10711.30,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 10711.30,
+    "DisplayTotal": "$10,711.30",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0153",
+    "Subtotal": 3021.89,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 219.09,
+    "Total": 3240.98,
+    "DisplayTotal": "$3,240.98",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0154",
+    "Subtotal": 1168.59,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 1168.59,
+    "DisplayTotal": "$1,168.59",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0155",
+    "Subtotal": 15177.91,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1214.23,
+    "Total": 16392.14,
+    "DisplayTotal": "$16,392.14",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0156",
+    "Subtotal": 272.23,
+    "Discount": 20.42,
+    "Freight": 26.62,
+    "Tax": 22.27,
+    "Total": 300.70,
+    "DisplayTotal": "$300.70",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0157",
+    "Subtotal": 41990.85,
+    "Discount": 1259.73,
+    "Freight": 0,
+    "Tax": 3258.49,
+    "Total": 43989.61,
+    "DisplayTotal": "$43,989.61",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0158",
+    "Subtotal": 18247.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1459.78,
+    "Total": 19706.98,
+    "DisplayTotal": "$19,706.98",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0159",
+    "Subtotal": 13465.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 976.23,
+    "Total": 14441.43,
+    "DisplayTotal": "$14,441.43",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0160",
+    "Subtotal": 20804.93,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1664.39,
+    "Total": 22469.32,
+    "DisplayTotal": "$22,469.32",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0161",
+    "Subtotal": 25221.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2017.76,
+    "Total": 27239.73,
+    "DisplayTotal": "$27,239.73",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0162",
+    "Subtotal": 96.49,
+    "Discount": 2.89,
+    "Freight": 194.30,
+    "Tax": 23.03,
+    "Total": 310.93,
+    "DisplayTotal": "$310.93",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0163",
+    "Subtotal": 10295.24,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 823.62,
+    "Total": 11118.86,
+    "DisplayTotal": "$11,118.86",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0164",
+    "Subtotal": 163.67,
+    "Discount": 4.91,
+    "Freight": 27.69,
+    "Tax": 14.92,
+    "Total": 201.37,
+    "DisplayTotal": "$201.37",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0165",
+    "Subtotal": 26339.03,
+    "Discount": 1975.43,
+    "Freight": 0,
+    "Tax": 1949.09,
+    "Total": 26312.69,
+    "DisplayTotal": "$26,312.69",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0166",
+    "Subtotal": 677.40,
+    "Discount": 50.80,
+    "Freight": 0,
+    "Tax": 50.13,
+    "Total": 676.73,
+    "DisplayTotal": "$676.73",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0167",
+    "Subtotal": 12180.63,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 974.45,
+    "Total": 13155.08,
+    "DisplayTotal": "$13,155.08",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0168",
+    "Subtotal": 14228.59,
+    "Discount": 426.86,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 13801.73,
+    "DisplayTotal": "$13,801.73",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0169",
+    "Subtotal": 17943.41,
+    "Discount": 538.30,
+    "Freight": 0,
+    "Tax": 1392.41,
+    "Total": 18797.52,
+    "DisplayTotal": "$18,797.52",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0170",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0171",
+    "Subtotal": 4070.38,
+    "Discount": 122.11,
+    "Freight": 0,
+    "Tax": 315.86,
+    "Total": 4264.13,
+    "DisplayTotal": "$4,264.13",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0172",
+    "Subtotal": 13306.32,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1064.51,
+    "Total": 14370.83,
+    "DisplayTotal": "$14,370.83",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0173",
+    "Subtotal": 6989.47,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 559.16,
+    "Total": 7548.63,
+    "DisplayTotal": "$7,548.63",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0174",
+    "Subtotal": 9124.04,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 9124.04,
+    "DisplayTotal": "$9,124.04",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0175",
+    "Subtotal": 371.42,
+    "Discount": 0.00,
+    "Freight": 89.74,
+    "Tax": 33.43,
+    "Total": 494.59,
+    "DisplayTotal": "$494.59",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0176",
+    "Subtotal": 13181.51,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 13181.51,
+    "DisplayTotal": "$13,181.51",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0177",
+    "Subtotal": 62363.62,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4521.36,
+    "Total": 66884.98,
+    "DisplayTotal": "$66,884.98",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0178",
+    "Subtotal": 947.14,
+    "Discount": 28.41,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 918.73,
+    "DisplayTotal": "$918.73",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0179",
+    "Subtotal": 16060.48,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1284.84,
+    "Total": 17345.32,
+    "DisplayTotal": "$17,345.32",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0180",
+    "Subtotal": 2793.64,
+    "Discount": 83.81,
+    "Freight": 0,
+    "Tax": 216.79,
+    "Total": 2926.62,
+    "DisplayTotal": "$2,926.62",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0181",
+    "Subtotal": 51482.47,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4118.60,
+    "Total": 55601.07,
+    "DisplayTotal": "$55,601.07",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0182",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0183",
+    "Subtotal": 9506.63,
+    "Discount": 285.20,
+    "Freight": 0,
+    "Tax": 737.71,
+    "Total": 9959.14,
+    "DisplayTotal": "$9,959.14",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0184",
+    "Subtotal": 9263.55,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 741.08,
+    "Total": 10004.63,
+    "DisplayTotal": "$10,004.63",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0185",
+    "Subtotal": 36659.57,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2932.77,
+    "Total": 39592.34,
+    "DisplayTotal": "$39,592.34",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0186",
+    "Subtotal": 542.49,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 43.40,
+    "Total": 585.89,
+    "DisplayTotal": "$585.89",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0187",
+    "Subtotal": 6827.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 495.03,
+    "Total": 7323.00,
+    "DisplayTotal": "$7,323.00",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0188",
+    "Subtotal": 12193.12,
+    "Discount": 365.79,
+    "Freight": 0,
+    "Tax": 946.19,
+    "Total": 12773.52,
+    "DisplayTotal": "$12,773.52",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0189",
+    "Subtotal": 3376.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 270.10,
+    "Total": 3646.30,
+    "DisplayTotal": "$3,646.30",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0190",
+    "Subtotal": 1331.88,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 106.55,
+    "Total": 1438.43,
+    "DisplayTotal": "$1,438.43",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0191",
+    "Subtotal": 6387.43,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 510.99,
+    "Total": 6898.42,
+    "DisplayTotal": "$6,898.42",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0192",
+    "Subtotal": 16856.70,
+    "Discount": 1264.25,
+    "Freight": 0,
+    "Tax": 1247.40,
+    "Total": 16839.85,
+    "DisplayTotal": "$16,839.85",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0193",
+    "Subtotal": 12958.23,
+    "Discount": 971.87,
+    "Freight": 0,
+    "Tax": 958.91,
+    "Total": 12945.27,
+    "DisplayTotal": "$12,945.27",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0194",
+    "Subtotal": 16645.98,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 16645.98,
+    "DisplayTotal": "$16,645.98",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0195",
+    "Subtotal": 1836.86,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 146.95,
+    "Total": 1983.81,
+    "DisplayTotal": "$1,983.81",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0196",
+    "Subtotal": 13255.25,
+    "Discount": 397.66,
+    "Freight": 0,
+    "Tax": 1028.61,
+    "Total": 13886.20,
+    "DisplayTotal": "$13,886.20",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0197",
+    "Subtotal": 33103.61,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2648.29,
+    "Total": 35751.90,
+    "DisplayTotal": "$35,751.90",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0198",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0199",
+    "Subtotal": 1969.67,
+    "Discount": 147.73,
+    "Freight": 0,
+    "Tax": 132.09,
+    "Total": 1954.03,
+    "DisplayTotal": "$1,954.03",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0200",
+    "Subtotal": 2824.68,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 225.97,
+    "Total": 3050.65,
+    "DisplayTotal": "$3,050.65",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0201",
+    "Subtotal": 12750.68,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1020.05,
+    "Total": 13770.73,
+    "DisplayTotal": "$13,770.73",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0202",
+    "Subtotal": 330.19,
+    "Discount": 0.00,
+    "Freight": 31.31,
+    "Tax": 28.92,
+    "Total": 390.42,
+    "DisplayTotal": "$390.42",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0203",
+    "Subtotal": 7096.49,
+    "Discount": 532.24,
+    "Freight": 0,
+    "Tax": 525.14,
+    "Total": 7089.39,
+    "DisplayTotal": "$7,089.39",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0204",
+    "Subtotal": 12521.27,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 12521.27,
+    "DisplayTotal": "$12,521.27",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0205",
+    "Subtotal": 3135.63,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 227.33,
+    "Total": 3362.96,
+    "DisplayTotal": "$3,362.96",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0206",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0207",
+    "Subtotal": 11108.08,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 888.65,
+    "Total": 11996.73,
+    "DisplayTotal": "$11,996.73",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0208",
+    "Subtotal": 3022.63,
+    "Discount": 90.68,
+    "Freight": 0,
+    "Tax": 234.56,
+    "Total": 3166.51,
+    "DisplayTotal": "$3,166.51",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0209",
+    "Subtotal": 12180.84,
+    "Discount": 913.56,
+    "Freight": 0,
+    "Tax": 816.88,
+    "Total": 12084.16,
+    "DisplayTotal": "$12,084.16",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0210",
+    "Subtotal": 1311.01,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 1311.01,
+    "DisplayTotal": "$1,311.01",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0211",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0212",
+    "Subtotal": 3865.15,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 3865.15,
+    "DisplayTotal": "$3,865.15",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0213",
+    "Subtotal": 37345.53,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2707.55,
+    "Total": 40053.08,
+    "DisplayTotal": "$40,053.08",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0214",
+    "Subtotal": 10398.99,
+    "Discount": 779.92,
+    "Freight": 0,
+    "Tax": 769.53,
+    "Total": 10388.60,
+    "DisplayTotal": "$10,388.60",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0215",
+    "Subtotal": 16231.00,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1298.48,
+    "Total": 17529.48,
+    "DisplayTotal": "$17,529.48",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0216",
+    "Subtotal": 374.10,
+    "Discount": 11.22,
+    "Freight": 25.85,
+    "Tax": 31.10,
+    "Total": 419.83,
+    "DisplayTotal": "$419.83",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0217",
+    "Subtotal": 33951.35,
+    "Discount": 2546.35,
+    "Freight": 0,
+    "Tax": 2512.40,
+    "Total": 33917.40,
+    "DisplayTotal": "$33,917.40",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0218",
+    "Subtotal": 11913.00,
+    "Discount": 893.48,
+    "Freight": 0,
+    "Tax": 881.56,
+    "Total": 11901.08,
+    "DisplayTotal": "$11,901.08",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0219",
+    "Subtotal": 6334.58,
+    "Discount": 475.09,
+    "Freight": 0,
+    "Tax": 468.76,
+    "Total": 6328.25,
+    "DisplayTotal": "$6,328.25",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0220",
+    "Subtotal": 4627.38,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 370.19,
+    "Total": 4997.57,
+    "DisplayTotal": "$4,997.57",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0221",
+    "Subtotal": 80649.67,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 5847.10,
+    "Total": 86496.77,
+    "DisplayTotal": "$86,496.77",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0222",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0223",
+    "Subtotal": 977.53,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 70.87,
+    "Total": 1048.40,
+    "DisplayTotal": "$1,048.40",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0224",
+    "Subtotal": 9229.12,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 9229.12,
+    "DisplayTotal": "$9,229.12",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0225",
+    "Subtotal": 64777.68,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 5182.21,
+    "Total": 69959.89,
+    "DisplayTotal": "$69,959.89",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0226",
+    "Subtotal": 358.73,
+    "Discount": 0.00,
+    "Freight": 30.21,
+    "Tax": 31.12,
+    "Total": 420.06,
+    "DisplayTotal": "$420.06",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0227",
+    "Subtotal": 3325.26,
+    "Discount": 99.76,
+    "Freight": 0,
+    "Tax": 233.85,
+    "Total": 3459.35,
+    "DisplayTotal": "$3,459.35",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0228",
+    "Subtotal": 10972.01,
+    "Discount": 822.90,
+    "Freight": 0,
+    "Tax": 811.93,
+    "Total": 10961.04,
+    "DisplayTotal": "$10,961.04",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0229",
+    "Subtotal": 66235.03,
+    "Discount": 1987.05,
+    "Freight": 0,
+    "Tax": 5139.84,
+    "Total": 69387.82,
+    "DisplayTotal": "$69,387.82",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0230",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0231",
+    "Subtotal": 9135.34,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 730.83,
+    "Total": 9866.17,
+    "DisplayTotal": "$9,866.17",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0232",
+    "Subtotal": 10806.24,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 864.50,
+    "Total": 11670.74,
+    "DisplayTotal": "$11,670.74",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0233",
+    "Subtotal": 43348.70,
+    "Discount": 1300.46,
+    "Freight": 0,
+    "Tax": 3363.86,
+    "Total": 45412.10,
+    "DisplayTotal": "$45,412.10",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0234",
+    "Subtotal": 408.35,
+    "Discount": 0.00,
+    "Freight": 31.78,
+    "Tax": 35.21,
+    "Total": 475.34,
+    "DisplayTotal": "$475.34",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0235",
+    "Subtotal": 18316.42,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1327.94,
+    "Total": 19644.36,
+    "DisplayTotal": "$19,644.36",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0236",
+    "Subtotal": 10992.33,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 879.39,
+    "Total": 11871.72,
+    "DisplayTotal": "$11,871.72",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0237",
+    "Subtotal": 11372.95,
+    "Discount": 852.97,
+    "Freight": 0,
+    "Tax": 841.60,
+    "Total": 11361.58,
+    "DisplayTotal": "$11,361.58",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0238",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0239",
+    "Subtotal": 14646.64,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1171.73,
+    "Total": 15818.37,
+    "DisplayTotal": "$15,818.37",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0240",
+    "Subtotal": 8145.82,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 651.67,
+    "Total": 8797.49,
+    "DisplayTotal": "$8,797.49",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0241",
+    "Subtotal": 75920.96,
+    "Discount": 5694.07,
+    "Freight": 0,
+    "Tax": 5618.15,
+    "Total": 75845.04,
+    "DisplayTotal": "$75,845.04",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0242",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0243",
+    "Subtotal": 8864.60,
+    "Discount": 265.94,
+    "Freight": 0,
+    "Tax": 687.89,
+    "Total": 9286.55,
+    "DisplayTotal": "$9,286.55",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0244",
+    "Subtotal": 30156.90,
+    "Discount": 904.71,
+    "Freight": 0,
+    "Tax": 2340.18,
+    "Total": 31592.37,
+    "DisplayTotal": "$31,592.37",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0245",
+    "Subtotal": 12303.56,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 984.28,
+    "Total": 13287.84,
+    "DisplayTotal": "$13,287.84",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0246",
+    "Subtotal": 14911.28,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1192.90,
+    "Total": 16104.18,
+    "DisplayTotal": "$16,104.18",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0247",
+    "Subtotal": 827.32,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 59.98,
+    "Total": 887.30,
+    "DisplayTotal": "$887.30",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0248",
+    "Subtotal": 3714.39,
+    "Discount": 111.43,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 3602.96,
+    "DisplayTotal": "$3,602.96",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0249",
+    "Subtotal": 53406.44,
+    "Discount": 4005.48,
+    "Freight": 0,
+    "Tax": 3952.08,
+    "Total": 53353.04,
+    "DisplayTotal": "$53,353.04",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0250",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0251",
+    "Subtotal": 26306.71,
+    "Discount": 1973.00,
+    "Freight": 0,
+    "Tax": 1764.19,
+    "Total": 26097.90,
+    "DisplayTotal": "$26,097.90",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0252",
+    "Subtotal": 16513.24,
+    "Discount": 495.40,
+    "Freight": 0,
+    "Tax": 1281.43,
+    "Total": 17299.27,
+    "DisplayTotal": "$17,299.27",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0253",
+    "Subtotal": 57200.51,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4576.04,
+    "Total": 61776.55,
+    "DisplayTotal": "$61,776.55",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0254",
+    "Subtotal": 8940.01,
+    "Discount": 268.20,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 8671.81,
+    "DisplayTotal": "$8,671.81",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0255",
+    "Subtotal": 4986.89,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 398.95,
+    "Total": 5385.84,
+    "DisplayTotal": "$5,385.84",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0256",
+    "Subtotal": 15659.46,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 15659.46,
+    "DisplayTotal": "$15,659.46",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0257",
+    "Subtotal": 56158.91,
+    "Discount": 1684.77,
+    "Freight": 0,
+    "Tax": 4357.93,
+    "Total": 58832.07,
+    "DisplayTotal": "$58,832.07",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0258",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0259",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 1.81,
+    "Total": 26.81,
+    "DisplayTotal": "$26.81",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0260",
+    "Subtotal": 13195.60,
+    "Discount": 395.87,
+    "Freight": 0,
+    "Tax": 1023.98,
+    "Total": 13823.71,
+    "DisplayTotal": "$13,823.71",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0261",
+    "Subtotal": 76704.84,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 6136.39,
+    "Total": 82841.23,
+    "DisplayTotal": "$82,841.23",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0262",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0263",
+    "Subtotal": 9361.41,
+    "Discount": 702.11,
+    "Freight": 0,
+    "Tax": 692.74,
+    "Total": 9352.04,
+    "DisplayTotal": "$9,352.04",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0264",
+    "Subtotal": 4627.72,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 4627.72,
+    "DisplayTotal": "$4,627.72",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0265",
+    "Subtotal": 10204.35,
+    "Discount": 765.33,
+    "Freight": 0,
+    "Tax": 755.12,
+    "Total": 10194.14,
+    "DisplayTotal": "$10,194.14",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0266",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0267",
+    "Subtotal": 13645.50,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1091.64,
+    "Total": 14737.14,
+    "DisplayTotal": "$14,737.14",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0268",
+    "Subtotal": 6966.65,
+    "Discount": 209.00,
+    "Freight": 0,
+    "Tax": 540.61,
+    "Total": 7298.26,
+    "DisplayTotal": "$7,298.26",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0269",
+    "Subtotal": 885.53,
+    "Discount": 66.41,
+    "Freight": 0,
+    "Tax": 65.53,
+    "Total": 884.65,
+    "DisplayTotal": "$884.65",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0270",
+    "Subtotal": 494.31,
+    "Discount": 37.07,
+    "Freight": 29.45,
+    "Tax": 0.00,
+    "Total": 486.69,
+    "DisplayTotal": "$486.69",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0271",
+    "Subtotal": 602.89,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 48.23,
+    "Total": 651.12,
+    "DisplayTotal": "$651.12",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0272",
+    "Subtotal": 25999.89,
+    "Discount": 1949.99,
+    "Freight": 0,
+    "Tax": 1923.99,
+    "Total": 25973.89,
+    "DisplayTotal": "$25,973.89",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0273",
+    "Subtotal": 90704.94,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 7256.40,
+    "Total": 97961.34,
+    "DisplayTotal": "$97,961.34",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0274",
+    "Subtotal": 11211.99,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 896.96,
+    "Total": 12108.95,
+    "DisplayTotal": "$12,108.95",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0275",
+    "Subtotal": 17283.60,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1253.06,
+    "Total": 18536.66,
+    "DisplayTotal": "$18,536.66",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0276",
+    "Subtotal": 39763.48,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 39763.48,
+    "DisplayTotal": "$39,763.48",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0277",
+    "Subtotal": 7364.80,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 589.18,
+    "Total": 7953.98,
+    "DisplayTotal": "$7,953.98",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0278",
+    "Subtotal": 416.79,
+    "Discount": 0.00,
+    "Freight": 25.85,
+    "Tax": 0.00,
+    "Total": 442.64,
+    "DisplayTotal": "$442.64",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0279",
+    "Subtotal": 28586.19,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2286.90,
+    "Total": 30873.09,
+    "DisplayTotal": "$30,873.09",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0280",
+    "Subtotal": 14401.84,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1152.15,
+    "Total": 15553.99,
+    "DisplayTotal": "$15,553.99",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0281",
+    "Subtotal": 508.78,
+    "Discount": 38.16,
+    "Freight": 34.14,
+    "Tax": 40.38,
+    "Total": 545.14,
+    "DisplayTotal": "$545.14",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0282",
+    "Subtotal": 9271.18,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 9271.18,
+    "DisplayTotal": "$9,271.18",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0283",
+    "Subtotal": 5271.88,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 421.75,
+    "Total": 5693.63,
+    "DisplayTotal": "$5,693.63",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0284",
+    "Subtotal": 22005.48,
+    "Discount": 660.16,
+    "Freight": 0,
+    "Tax": 1707.63,
+    "Total": 23052.95,
+    "DisplayTotal": "$23,052.95",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0285",
+    "Subtotal": 83742.16,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 6071.31,
+    "Total": 89813.47,
+    "DisplayTotal": "$89,813.47",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0286",
+    "Subtotal": 11716.36,
+    "Discount": 878.73,
+    "Freight": 0,
+    "Tax": 867.01,
+    "Total": 11704.64,
+    "DisplayTotal": "$11,704.64",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0287",
+    "Subtotal": 11969.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 867.77,
+    "Total": 12836.97,
+    "DisplayTotal": "$12,836.97",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0288",
+    "Subtotal": 29225.12,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2338.01,
+    "Total": 31563.13,
+    "DisplayTotal": "$31,563.13",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0289",
+    "Subtotal": 1878.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 150.26,
+    "Total": 2028.46,
+    "DisplayTotal": "$2,028.46",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0290",
+    "Subtotal": 10805.85,
+    "Discount": 324.18,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 10481.67,
+    "DisplayTotal": "$10,481.67",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0291",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0292",
+    "Subtotal": 19702.80,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 19702.80,
+    "DisplayTotal": "$19,702.80",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0293",
+    "Subtotal": 11943.99,
+    "Discount": 895.80,
+    "Freight": 0,
+    "Tax": 883.86,
+    "Total": 11932.05,
+    "DisplayTotal": "$11,932.05",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0294",
+    "Subtotal": 2983.48,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 238.68,
+    "Total": 3222.16,
+    "DisplayTotal": "$3,222.16",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0295",
+    "Subtotal": 8666.62,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 693.33,
+    "Total": 9359.95,
+    "DisplayTotal": "$9,359.95",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0296",
+    "Subtotal": 26989.23,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2159.14,
+    "Total": 29148.37,
+    "DisplayTotal": "$29,148.37",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0297",
+    "Subtotal": 30509.55,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2440.76,
+    "Total": 32950.31,
+    "DisplayTotal": "$32,950.31",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0298",
+    "Subtotal": 378.91,
+    "Discount": 0.00,
+    "Freight": 33.07,
+    "Tax": 0.00,
+    "Total": 411.98,
+    "DisplayTotal": "$411.98",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0299",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0300",
+    "Subtotal": 24386.17,
+    "Discount": 1828.96,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 22557.21,
+    "DisplayTotal": "$22,557.21",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0301",
+    "Subtotal": 7503.27,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 600.26,
+    "Total": 8103.53,
+    "DisplayTotal": "$8,103.53",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0302",
+    "Subtotal": 816.98,
+    "Discount": 24.51,
+    "Freight": 0,
+    "Tax": 63.40,
+    "Total": 855.87,
+    "DisplayTotal": "$855.87",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0303",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0304",
+    "Subtotal": 289.64,
+    "Discount": 0.00,
+    "Freight": 27.63,
+    "Tax": 25.38,
+    "Total": 342.65,
+    "DisplayTotal": "$342.65",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0305",
+    "Subtotal": 76577.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 6126.24,
+    "Total": 82704.21,
+    "DisplayTotal": "$82,704.21",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0306",
+    "Subtotal": 969.45,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 77.56,
+    "Total": 1047.01,
+    "DisplayTotal": "$1,047.01",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0307",
+    "Subtotal": 6156.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 492.50,
+    "Total": 6648.70,
+    "DisplayTotal": "$6,648.70",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0308",
+    "Subtotal": 14485.74,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 14485.74,
+    "DisplayTotal": "$14,485.74",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0309",
+    "Subtotal": 69465.82,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 5557.27,
+    "Total": 75023.09,
+    "DisplayTotal": "$75,023.09",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0310",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0311",
+    "Subtotal": 5319.07,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 425.53,
+    "Total": 5744.60,
+    "DisplayTotal": "$5,744.60",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0312",
+    "Subtotal": 9010.69,
+    "Discount": 270.32,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 8740.37,
+    "DisplayTotal": "$8,740.37",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0313",
+    "Subtotal": 69155.99,
+    "Discount": 2074.68,
+    "Freight": 0,
+    "Tax": 5366.50,
+    "Total": 72447.81,
+    "DisplayTotal": "$72,447.81",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0314",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0315",
+    "Subtotal": 1564.51,
+    "Discount": 46.94,
+    "Freight": 0,
+    "Tax": 121.41,
+    "Total": 1638.98,
+    "DisplayTotal": "$1,638.98",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0316",
+    "Subtotal": 5347.94,
+    "Discount": 160.44,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 5187.50,
+    "DisplayTotal": "$5,187.50",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0317",
+    "Subtotal": 29161.07,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2332.89,
+    "Total": 31493.96,
+    "DisplayTotal": "$31,493.96",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0318",
+    "Subtotal": 200.73,
+    "Discount": 15.05,
+    "Freight": 124.31,
+    "Tax": 24.80,
+    "Total": 334.79,
+    "DisplayTotal": "$334.79",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0319",
+    "Subtotal": 15579.74,
+    "Discount": 1168.48,
+    "Freight": 0,
+    "Tax": 1152.90,
+    "Total": 15564.16,
+    "DisplayTotal": "$15,564.16",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0320",
+    "Subtotal": 24527.94,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 24527.94,
+    "DisplayTotal": "$24,527.94",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0321",
+    "Subtotal": 41334.56,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3306.76,
+    "Total": 44641.32,
+    "DisplayTotal": "$44,641.32",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0322",
+    "Subtotal": 3162.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 253.04,
+    "Total": 3416.01,
+    "DisplayTotal": "$3,416.01",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0323",
+    "Subtotal": 3952.30,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 316.18,
+    "Total": 4268.48,
+    "DisplayTotal": "$4,268.48",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0324",
+    "Subtotal": 15712.61,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1257.01,
+    "Total": 16969.62,
+    "DisplayTotal": "$16,969.62",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0325",
+    "Subtotal": 50772.63,
+    "Discount": 1523.18,
+    "Freight": 0,
+    "Tax": 3939.96,
+    "Total": 53189.41,
+    "DisplayTotal": "$53,189.41",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0326",
+    "Subtotal": 875.86,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 875.86,
+    "DisplayTotal": "$875.86",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0327",
+    "Subtotal": 5666.36,
+    "Discount": 424.98,
+    "Freight": 0,
+    "Tax": 419.31,
+    "Total": 5660.69,
+    "DisplayTotal": "$5,660.69",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0328",
+    "Subtotal": 12383.53,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 990.68,
+    "Total": 13374.21,
+    "DisplayTotal": "$13,374.21",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0329",
+    "Subtotal": 27327.47,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2186.20,
+    "Total": 29513.67,
+    "DisplayTotal": "$29,513.67",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0330",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0331",
+    "Subtotal": 15188.62,
+    "Discount": 455.66,
+    "Freight": 0,
+    "Tax": 1178.64,
+    "Total": 15911.60,
+    "DisplayTotal": "$15,911.60",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0332",
+    "Subtotal": 11117.15,
+    "Discount": 333.51,
+    "Freight": 0,
+    "Tax": 862.69,
+    "Total": 11646.33,
+    "DisplayTotal": "$11,646.33",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0333",
+    "Subtotal": 41432.67,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3314.61,
+    "Total": 44747.28,
+    "DisplayTotal": "$44,747.28",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0334",
+    "Subtotal": 17948.49,
+    "Discount": 538.45,
+    "Freight": 0,
+    "Tax": 1392.80,
+    "Total": 18802.84,
+    "DisplayTotal": "$18,802.84",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0335",
+    "Subtotal": 1730.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 138.48,
+    "Total": 1869.45,
+    "DisplayTotal": "$1,869.45",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0336",
+    "Subtotal": 7812.66,
+    "Discount": 234.38,
+    "Freight": 0,
+    "Tax": 606.26,
+    "Total": 8184.54,
+    "DisplayTotal": "$8,184.54",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0337",
+    "Subtotal": 13503.98,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1080.32,
+    "Total": 14584.30,
+    "DisplayTotal": "$14,584.30",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0338",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0339",
+    "Subtotal": 16016.98,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1161.23,
+    "Total": 17178.21,
+    "DisplayTotal": "$17,178.21",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0340",
+    "Subtotal": 3775.48,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 302.04,
+    "Total": 4077.52,
+    "DisplayTotal": "$4,077.52",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0341",
+    "Subtotal": 38646.75,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2801.89,
+    "Total": 41448.64,
+    "DisplayTotal": "$41,448.64",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0342",
+    "Subtotal": 1075.84,
+    "Discount": 32.28,
+    "Freight": 0,
+    "Tax": 83.48,
+    "Total": 1127.04,
+    "DisplayTotal": "$1,127.04",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0343",
+    "Subtotal": 5493.33,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 439.47,
+    "Total": 5932.80,
+    "DisplayTotal": "$5,932.80",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0344",
+    "Subtotal": 6819.03,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 6819.03,
+    "DisplayTotal": "$6,819.03",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0345",
+    "Subtotal": 59167.99,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4733.44,
+    "Total": 63901.43,
+    "DisplayTotal": "$63,901.43",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0346",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0347",
+    "Subtotal": 7635.34,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 610.83,
+    "Total": 8246.17,
+    "DisplayTotal": "$8,246.17",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0348",
+    "Subtotal": 21086.61,
+    "Discount": 632.60,
+    "Freight": 0,
+    "Tax": 1636.32,
+    "Total": 22090.33,
+    "DisplayTotal": "$22,090.33",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0349",
+    "Subtotal": 14285.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1035.68,
+    "Total": 15320.88,
+    "DisplayTotal": "$15,320.88",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0350",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0351",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 1.81,
+    "Total": 26.81,
+    "DisplayTotal": "$26.81",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0352",
+    "Subtotal": 8112.51,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 8112.51,
+    "DisplayTotal": "$8,112.51",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0353",
+    "Subtotal": 16081.07,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1286.49,
+    "Total": 17367.56,
+    "DisplayTotal": "$17,367.56",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0354",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0355",
+    "Subtotal": 9560.34,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 764.83,
+    "Total": 10325.17,
+    "DisplayTotal": "$10,325.17",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0356",
+    "Subtotal": 12149.13,
+    "Discount": 911.18,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 11237.95,
+    "DisplayTotal": "$11,237.95",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0357",
+    "Subtotal": 29746.08,
+    "Discount": 892.38,
+    "Freight": 0,
+    "Tax": 2091.89,
+    "Total": 30945.59,
+    "DisplayTotal": "$30,945.59",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0358",
+    "Subtotal": 5881.73,
+    "Discount": 176.45,
+    "Freight": 0,
+    "Tax": 456.42,
+    "Total": 6161.70,
+    "DisplayTotal": "$6,161.70",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0359",
+    "Subtotal": 2721.19,
+    "Discount": 81.64,
+    "Freight": 0,
+    "Tax": 211.16,
+    "Total": 2850.71,
+    "DisplayTotal": "$2,850.71",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0360",
+    "Subtotal": 7190.14,
+    "Discount": 215.70,
+    "Freight": 0,
+    "Tax": 557.96,
+    "Total": 7532.40,
+    "DisplayTotal": "$7,532.40",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0361",
+    "Subtotal": 68577.14,
+    "Discount": 5143.29,
+    "Freight": 0,
+    "Tax": 5074.71,
+    "Total": 68508.56,
+    "DisplayTotal": "$68,508.56",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0362",
+    "Subtotal": 6285.80,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 502.86,
+    "Total": 6788.66,
+    "DisplayTotal": "$6,788.66",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0363",
+    "Subtotal": 14775.23,
+    "Discount": 443.26,
+    "Freight": 0,
+    "Tax": 1039.07,
+    "Total": 15371.04,
+    "DisplayTotal": "$15,371.04",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0364",
+    "Subtotal": 14938.31,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1195.06,
+    "Total": 16133.37,
+    "DisplayTotal": "$16,133.37",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0365",
+    "Subtotal": 39360.98,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3148.88,
+    "Total": 42509.86,
+    "DisplayTotal": "$42,509.86",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0366",
+    "Subtotal": 818.15,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 65.45,
+    "Total": 883.60,
+    "DisplayTotal": "$883.60",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0367",
+    "Subtotal": 9295.69,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 673.94,
+    "Total": 9969.63,
+    "DisplayTotal": "$9,969.63",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0368",
+    "Subtotal": 6402.16,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 512.17,
+    "Total": 6914.33,
+    "DisplayTotal": "$6,914.33",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0369",
+    "Subtotal": 34148.43,
+    "Discount": 2561.13,
+    "Freight": 0,
+    "Tax": 2290.08,
+    "Total": 33877.38,
+    "DisplayTotal": "$33,877.38",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0370",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0371",
+    "Subtotal": 19252.72,
+    "Discount": 1443.95,
+    "Freight": 0,
+    "Tax": 1291.14,
+    "Total": 19099.91,
+    "DisplayTotal": "$19,099.91",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0372",
+    "Subtotal": 4311.88,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 4311.88,
+    "DisplayTotal": "$4,311.88",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0373",
+    "Subtotal": 70208.52,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 5616.68,
+    "Total": 75825.20,
+    "DisplayTotal": "$75,825.20",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0374",
+    "Subtotal": 15191.77,
+    "Discount": 1139.38,
+    "Freight": 0,
+    "Tax": 1124.19,
+    "Total": 15176.58,
+    "DisplayTotal": "$15,176.58",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0375",
+    "Subtotal": 4192.05,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 335.36,
+    "Total": 4527.41,
+    "DisplayTotal": "$4,527.41",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0376",
+    "Subtotal": 15461.36,
+    "Discount": 1159.60,
+    "Freight": 0,
+    "Tax": 1144.14,
+    "Total": 15445.90,
+    "DisplayTotal": "$15,445.90",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0377",
+    "Subtotal": 79319.40,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 6345.55,
+    "Total": 85664.95,
+    "DisplayTotal": "$85,664.95",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0378",
+    "Subtotal": 13244.75,
+    "Discount": 993.36,
+    "Freight": 0,
+    "Tax": 980.11,
+    "Total": 13231.50,
+    "DisplayTotal": "$13,231.50",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0379",
+    "Subtotal": 15881.84,
+    "Discount": 1191.14,
+    "Freight": 0,
+    "Tax": 1175.26,
+    "Total": 15865.96,
+    "DisplayTotal": "$15,865.96",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0380",
+    "Subtotal": 16462.80,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1317.02,
+    "Total": 17779.82,
+    "DisplayTotal": "$17,779.82",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0381",
+    "Subtotal": 35845.99,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2867.68,
+    "Total": 38713.67,
+    "DisplayTotal": "$38,713.67",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0382",
+    "Subtotal": 15338.42,
+    "Discount": 1150.38,
+    "Freight": 0,
+    "Tax": 1135.04,
+    "Total": 15323.08,
+    "DisplayTotal": "$15,323.08",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0383",
+    "Subtotal": 12470.18,
+    "Discount": 935.26,
+    "Freight": 0,
+    "Tax": 836.28,
+    "Total": 12371.20,
+    "DisplayTotal": "$12,371.20",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0384",
+    "Subtotal": 20321.95,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1625.76,
+    "Total": 21947.71,
+    "DisplayTotal": "$21,947.71",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0385",
+    "Subtotal": 6751.29,
+    "Discount": 202.54,
+    "Freight": 0,
+    "Tax": 474.78,
+    "Total": 7023.53,
+    "DisplayTotal": "$7,023.53",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0386",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0387",
+    "Subtotal": 1911.71,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 152.94,
+    "Total": 2064.65,
+    "DisplayTotal": "$2,064.65",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0388",
+    "Subtotal": 11137.60,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 891.01,
+    "Total": 12028.61,
+    "DisplayTotal": "$12,028.61",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0389",
+    "Subtotal": 47657.63,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3812.61,
+    "Total": 51470.24,
+    "DisplayTotal": "$51,470.24",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0390",
+    "Subtotal": 2718.34,
+    "Discount": 81.55,
+    "Freight": 0,
+    "Tax": 210.94,
+    "Total": 2847.73,
+    "DisplayTotal": "$2,847.73",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0391",
+    "Subtotal": 7655.36,
+    "Discount": 229.66,
+    "Freight": 0,
+    "Tax": 594.06,
+    "Total": 8019.76,
+    "DisplayTotal": "$8,019.76",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0392",
+    "Subtotal": 466.27,
+    "Discount": 34.97,
+    "Freight": 27.83,
+    "Tax": 36.73,
+    "Total": 495.86,
+    "DisplayTotal": "$495.86",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0393",
+    "Subtotal": 23975.23,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1918.02,
+    "Total": 25893.25,
+    "DisplayTotal": "$25,893.25",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0394",
+    "Subtotal": 1132.43,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 90.59,
+    "Total": 1223.02,
+    "DisplayTotal": "$1,223.02",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0395",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0396",
+    "Subtotal": 143.43,
+    "Discount": 10.76,
+    "Freight": 28.53,
+    "Tax": 12.90,
+    "Total": 174.10,
+    "DisplayTotal": "$174.10",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0397",
+    "Subtotal": 27614.76,
+    "Discount": 828.44,
+    "Freight": 0,
+    "Tax": 2142.91,
+    "Total": 28929.23,
+    "DisplayTotal": "$28,929.23",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0398",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0399",
+    "Subtotal": 8925.97,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 714.08,
+    "Total": 9640.05,
+    "DisplayTotal": "$9,640.05",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0400",
+    "Subtotal": 2169.41,
+    "Discount": 162.71,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 2006.70,
+    "DisplayTotal": "$2,006.70",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0401",
+    "Subtotal": 12699.05,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1015.92,
+    "Total": 13714.97,
+    "DisplayTotal": "$13,714.97",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0402",
+    "Subtotal": 219.48,
+    "Discount": 6.58,
+    "Freight": 36.09,
+    "Tax": 19.92,
+    "Total": 268.91,
+    "DisplayTotal": "$268.91",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0403",
+    "Subtotal": 12043.48,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 963.48,
+    "Total": 13006.96,
+    "DisplayTotal": "$13,006.96",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0404",
+    "Subtotal": 9587.87,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 767.03,
+    "Total": 10354.90,
+    "DisplayTotal": "$10,354.90",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0405",
+    "Subtotal": 33942.26,
+    "Discount": 1018.27,
+    "Freight": 0,
+    "Tax": 2633.92,
+    "Total": 35557.91,
+    "DisplayTotal": "$35,557.91",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0406",
+    "Subtotal": 5481.90,
+    "Discount": 411.14,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 5070.76,
+    "DisplayTotal": "$5,070.76",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0407",
+    "Subtotal": 5925.16,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 474.01,
+    "Total": 6399.17,
+    "DisplayTotal": "$6,399.17",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0408",
+    "Subtotal": 19056.72,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 19056.72,
+    "DisplayTotal": "$19,056.72",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0409",
+    "Subtotal": 14291.63,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1036.14,
+    "Total": 15327.77,
+    "DisplayTotal": "$15,327.77",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0410",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0411",
+    "Subtotal": 5468.88,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 396.49,
+    "Total": 5865.37,
+    "DisplayTotal": "$5,865.37",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0412",
+    "Subtotal": 27017.69,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2161.42,
+    "Total": 29179.11,
+    "DisplayTotal": "$29,179.11",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0413",
+    "Subtotal": 54404.39,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4352.35,
+    "Total": 58756.74,
+    "DisplayTotal": "$58,756.74",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0414",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0415",
+    "Subtotal": 5254.39,
+    "Discount": 157.63,
+    "Freight": 0,
+    "Tax": 369.52,
+    "Total": 5466.28,
+    "DisplayTotal": "$5,466.28",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0416",
+    "Subtotal": 6255.14,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 6255.14,
+    "DisplayTotal": "$6,255.14",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0417",
+    "Subtotal": 82890.79,
+    "Discount": 6216.81,
+    "Freight": 0,
+    "Tax": 6133.92,
+    "Total": 82807.90,
+    "DisplayTotal": "$82,807.90",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0418",
+    "Subtotal": 22.86,
+    "Discount": 1.71,
+    "Freight": 25.29,
+    "Tax": 3.72,
+    "Total": 50.16,
+    "DisplayTotal": "$50.16",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0419",
+    "Subtotal": 8957.26,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 716.58,
+    "Total": 9673.84,
+    "DisplayTotal": "$9,673.84",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0420",
+    "Subtotal": 15530.07,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 15530.07,
+    "DisplayTotal": "$15,530.07",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0421",
+    "Subtotal": 41415.72,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3313.26,
+    "Total": 44728.98,
+    "DisplayTotal": "$44,728.98",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0422",
+    "Subtotal": 850.60,
+    "Discount": 25.52,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 825.08,
+    "DisplayTotal": "$825.08",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0423",
+    "Subtotal": 17965.92,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1437.27,
+    "Total": 19403.19,
+    "DisplayTotal": "$19,403.19",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0424",
+    "Subtotal": 14312.31,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1144.98,
+    "Total": 15457.29,
+    "DisplayTotal": "$15,457.29",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0425",
+    "Subtotal": 26328.61,
+    "Discount": 1974.65,
+    "Freight": 0,
+    "Tax": 1765.66,
+    "Total": 26119.62,
+    "DisplayTotal": "$26,119.62",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0426",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0427",
+    "Subtotal": 20029.10,
+    "Discount": 600.87,
+    "Freight": 0,
+    "Tax": 1554.26,
+    "Total": 20982.49,
+    "DisplayTotal": "$20,982.49",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0428",
+    "Subtotal": 4310.74,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 344.86,
+    "Total": 4655.60,
+    "DisplayTotal": "$4,655.60",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0429",
+    "Subtotal": 90253.91,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 7220.31,
+    "Total": 97474.22,
+    "DisplayTotal": "$97,474.22",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0430",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0431",
+    "Subtotal": 9113.00,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 660.69,
+    "Total": 9773.69,
+    "DisplayTotal": "$9,773.69",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0432",
+    "Subtotal": 6610.84,
+    "Discount": 198.33,
+    "Freight": 0,
+    "Tax": 513.00,
+    "Total": 6925.51,
+    "DisplayTotal": "$6,925.51",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0433",
+    "Subtotal": 76045.04,
+    "Discount": 5703.38,
+    "Freight": 0,
+    "Tax": 5627.33,
+    "Total": 75968.99,
+    "DisplayTotal": "$75,968.99",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0434",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0435",
+    "Subtotal": 11332.76,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 906.62,
+    "Total": 12239.38,
+    "DisplayTotal": "$12,239.38",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0436",
+    "Subtotal": 29763.70,
+    "Discount": 892.91,
+    "Freight": 0,
+    "Tax": 2309.66,
+    "Total": 31180.45,
+    "DisplayTotal": "$31,180.45",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0437",
+    "Subtotal": 52077.55,
+    "Discount": 3905.82,
+    "Freight": 0,
+    "Tax": 3853.74,
+    "Total": 52025.47,
+    "DisplayTotal": "$52,025.47",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0438",
+    "Subtotal": 357.50,
+    "Discount": 0.00,
+    "Freight": 30.32,
+    "Tax": 0.00,
+    "Total": 387.82,
+    "DisplayTotal": "$387.82",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0439",
+    "Subtotal": 6781.43,
+    "Discount": 203.44,
+    "Freight": 0,
+    "Tax": 526.24,
+    "Total": 7104.23,
+    "DisplayTotal": "$7,104.23",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0440",
+    "Subtotal": 3698.84,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 295.91,
+    "Total": 3994.75,
+    "DisplayTotal": "$3,994.75",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0441",
+    "Subtotal": 24005.70,
+    "Discount": 1800.43,
+    "Freight": 0,
+    "Tax": 1609.88,
+    "Total": 23815.15,
+    "DisplayTotal": "$23,815.15",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0442",
+    "Subtotal": 380.85,
+    "Discount": 28.56,
+    "Freight": 34.76,
+    "Tax": 0.00,
+    "Total": 387.05,
+    "DisplayTotal": "$387.05",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0443",
+    "Subtotal": 16855.07,
+    "Discount": 1264.13,
+    "Freight": 0,
+    "Tax": 1247.28,
+    "Total": 16838.22,
+    "DisplayTotal": "$16,838.22",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0444",
+    "Subtotal": 15351.79,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1228.14,
+    "Total": 16579.93,
+    "DisplayTotal": "$16,579.93",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0445",
+    "Subtotal": 60510.80,
+    "Discount": 4538.31,
+    "Freight": 0,
+    "Tax": 4477.80,
+    "Total": 60450.29,
+    "DisplayTotal": "$60,450.29",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0446",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0447",
+    "Subtotal": 238.82,
+    "Discount": 0.00,
+    "Freight": 39.24,
+    "Tax": 22.24,
+    "Total": 300.30,
+    "DisplayTotal": "$300.30",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0448",
+    "Subtotal": 17045.10,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 17045.10,
+    "DisplayTotal": "$17,045.10",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0449",
+    "Subtotal": 53575.42,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4286.03,
+    "Total": 57861.45,
+    "DisplayTotal": "$57,861.45",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0450",
+    "Subtotal": 4795.37,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 383.63,
+    "Total": 5179.00,
+    "DisplayTotal": "$5,179.00",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0451",
+    "Subtotal": 17233.51,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1378.68,
+    "Total": 18612.19,
+    "DisplayTotal": "$18,612.19",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0452",
+    "Subtotal": 33379.23,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2670.34,
+    "Total": 36049.57,
+    "DisplayTotal": "$36,049.57",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0453",
+    "Subtotal": 16354.88,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1308.39,
+    "Total": 17663.27,
+    "DisplayTotal": "$17,663.27",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0454",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0455",
+    "Subtotal": 8643.54,
+    "Discount": 259.31,
+    "Freight": 0,
+    "Tax": 670.74,
+    "Total": 9054.97,
+    "DisplayTotal": "$9,054.97",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0456",
+    "Subtotal": 15143.91,
+    "Discount": 454.32,
+    "Freight": 0,
+    "Tax": 1175.17,
+    "Total": 15864.76,
+    "DisplayTotal": "$15,864.76",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0457",
+    "Subtotal": 22016.43,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1596.19,
+    "Total": 23612.62,
+    "DisplayTotal": "$23,612.62",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0458",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0459",
+    "Subtotal": 9779.98,
+    "Discount": 733.50,
+    "Freight": 0,
+    "Tax": 655.87,
+    "Total": 9702.35,
+    "DisplayTotal": "$9,702.35",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0460",
+    "Subtotal": 6600.66,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 528.05,
+    "Total": 7128.71,
+    "DisplayTotal": "$7,128.71",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0461",
+    "Subtotal": 51913.60,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3763.74,
+    "Total": 55677.34,
+    "DisplayTotal": "$55,677.34",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0462",
+    "Subtotal": 16708.54,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 16708.54,
+    "DisplayTotal": "$16,708.54",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0463",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line HAZ-SOLV-5: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0464",
+    "Subtotal": 23224.67,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1857.97,
+    "Total": 25082.64,
+    "DisplayTotal": "$25,082.64",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0465",
+    "Subtotal": 40788.25,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3263.06,
+    "Total": 44051.31,
+    "DisplayTotal": "$44,051.31",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0466",
+    "Subtotal": 1390.33,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 111.23,
+    "Total": 1501.56,
+    "DisplayTotal": "$1,501.56",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0467",
+    "Subtotal": 5092.67,
+    "Discount": 152.78,
+    "Freight": 0,
+    "Tax": 395.19,
+    "Total": 5335.08,
+    "DisplayTotal": "$5,335.08",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0468",
+    "Subtotal": 17734.42,
+    "Discount": 1330.08,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 16404.34,
+    "DisplayTotal": "$16,404.34",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0469",
+    "Subtotal": 26939.20,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2155.14,
+    "Total": 29094.34,
+    "DisplayTotal": "$29,094.34",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0470",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0471",
+    "Subtotal": 8826.21,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 639.90,
+    "Total": 9466.11,
+    "DisplayTotal": "$9,466.11",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0472",
+    "Subtotal": 16920.96,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1353.68,
+    "Total": 18274.64,
+    "DisplayTotal": "$18,274.64",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0473",
+    "Subtotal": 27774.65,
+    "Discount": 2083.10,
+    "Freight": 0,
+    "Tax": 2055.32,
+    "Total": 27746.87,
+    "DisplayTotal": "$27,746.87",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0474",
+    "Subtotal": 1294.53,
+    "Discount": 38.84,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 1255.69,
+    "DisplayTotal": "$1,255.69",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0475",
+    "Subtotal": 12438.69,
+    "Discount": 373.16,
+    "Freight": 0,
+    "Tax": 874.75,
+    "Total": 12940.28,
+    "DisplayTotal": "$12,940.28",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0476",
+    "Subtotal": 19785.80,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1582.86,
+    "Total": 21368.66,
+    "DisplayTotal": "$21,368.66",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0477",
+    "Subtotal": 23048.37,
+    "Discount": 1728.63,
+    "Freight": 0,
+    "Tax": 1705.58,
+    "Total": 23025.32,
+    "DisplayTotal": "$23,025.32",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0478",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0479",
+    "Subtotal": 8592.38,
+    "Discount": 644.43,
+    "Freight": 0,
+    "Tax": 576.23,
+    "Total": 8524.18,
+    "DisplayTotal": "$8,524.18",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0480",
+    "Subtotal": 11852.77,
+    "Discount": 888.96,
+    "Freight": 0,
+    "Tax": 877.10,
+    "Total": 11840.91,
+    "DisplayTotal": "$11,840.91",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0481",
+    "Subtotal": 65736.59,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4765.90,
+    "Total": 70502.49,
+    "DisplayTotal": "$70,502.49",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0482",
+    "Subtotal": 574.13,
+    "Discount": 43.06,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 531.07,
+    "DisplayTotal": "$531.07",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0483",
+    "Subtotal": 8149.05,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 590.81,
+    "Total": 8739.86,
+    "DisplayTotal": "$8,739.86",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0484",
+    "Subtotal": 1468.11,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 117.45,
+    "Total": 1585.56,
+    "DisplayTotal": "$1,585.56",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0485",
+    "Subtotal": 20146.62,
+    "Discount": 1511.00,
+    "Freight": 0,
+    "Tax": 1351.08,
+    "Total": 19986.70,
+    "DisplayTotal": "$19,986.70",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0486",
+    "Subtotal": 687.30,
+    "Discount": 20.62,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 666.68,
+    "DisplayTotal": "$666.68",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0487",
+    "Subtotal": 23430.13,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1874.41,
+    "Total": 25304.54,
+    "DisplayTotal": "$25,304.54",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0488",
+    "Subtotal": 1495.75,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 119.66,
+    "Total": 1615.41,
+    "DisplayTotal": "$1,615.41",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0489",
+    "Subtotal": 57578.48,
+    "Discount": 4318.39,
+    "Freight": 0,
+    "Tax": 4260.81,
+    "Total": 57520.90,
+    "DisplayTotal": "$57,520.90",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0490",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 0.00,
+    "Total": 25.00,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0491",
+    "Subtotal": 6008.52,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 480.68,
+    "Total": 6489.20,
+    "DisplayTotal": "$6,489.20",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0492",
+    "Subtotal": 25895.50,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 25895.50,
+    "DisplayTotal": "$25,895.50",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0493",
+    "Subtotal": 22424.06,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1625.74,
+    "Total": 24049.80,
+    "DisplayTotal": "$24,049.80",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0494",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0495",
+    "Subtotal": 9822.44,
+    "Discount": 294.67,
+    "Freight": 0,
+    "Tax": 762.22,
+    "Total": 10289.99,
+    "DisplayTotal": "$10,289.99",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0496",
+    "Subtotal": 16624.30,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1329.94,
+    "Total": 17954.24,
+    "DisplayTotal": "$17,954.24",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0497",
+    "Subtotal": 14078.13,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1020.66,
+    "Total": 15098.79,
+    "DisplayTotal": "$15,098.79",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0498",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0499",
+    "Subtotal": 8706.78,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 696.54,
+    "Total": 9403.32,
+    "DisplayTotal": "$9,403.32",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0500",
+    "Subtotal": 9409.82,
+    "Discount": 282.29,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 9127.53,
+    "DisplayTotal": "$9,127.53",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0501",
+    "Subtotal": 42963.46,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3437.08,
+    "Total": 46400.54,
+    "DisplayTotal": "$46,400.54",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0502",
+    "Subtotal": 7720.74,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 7720.74,
+    "DisplayTotal": "$7,720.74",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0503",
+    "Subtotal": 14641.63,
+    "Discount": 1098.12,
+    "Freight": 0,
+    "Tax": 981.90,
+    "Total": 14525.41,
+    "DisplayTotal": "$14,525.41",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0504",
+    "Subtotal": 2404.37,
+    "Discount": 72.13,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 2332.24,
+    "DisplayTotal": "$2,332.24",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0505",
+    "Subtotal": 59972.21,
+    "Discount": 4497.92,
+    "Freight": 0,
+    "Tax": 4437.94,
+    "Total": 59912.23,
+    "DisplayTotal": "$59,912.23",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0506",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0507",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0508",
+    "Subtotal": 272.82,
+    "Discount": 8.18,
+    "Freight": 27.04,
+    "Tax": 0.00,
+    "Total": 291.68,
+    "DisplayTotal": "$291.68",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0509",
+    "Subtotal": 5937.81,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 475.02,
+    "Total": 6412.83,
+    "DisplayTotal": "$6,412.83",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0510",
+    "Subtotal": 11649.85,
+    "Discount": 349.50,
+    "Freight": 0,
+    "Tax": 904.03,
+    "Total": 12204.38,
+    "DisplayTotal": "$12,204.38",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0511",
+    "Subtotal": 13585.80,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1086.86,
+    "Total": 14672.66,
+    "DisplayTotal": "$14,672.66",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0512",
+    "Subtotal": 20587.32,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 20587.32,
+    "DisplayTotal": "$20,587.32",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0513",
+    "Subtotal": 49860.91,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3614.92,
+    "Total": 53475.83,
+    "DisplayTotal": "$53,475.83",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0514",
+    "Subtotal": 1929.63,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 154.37,
+    "Total": 2084.00,
+    "DisplayTotal": "$2,084.00",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0515",
+    "Subtotal": 15555.25,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1127.76,
+    "Total": 16683.01,
+    "DisplayTotal": "$16,683.01",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0516",
+    "Subtotal": 546.71,
+    "Discount": 41.00,
+    "Freight": 0,
+    "Tax": 40.46,
+    "Total": 546.17,
+    "DisplayTotal": "$546.17",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0517",
+    "Subtotal": 27921.02,
+    "Discount": 837.63,
+    "Freight": 0,
+    "Tax": 2166.67,
+    "Total": 29250.06,
+    "DisplayTotal": "$29,250.06",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0518",
+    "Subtotal": 687.24,
+    "Discount": 51.54,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 635.70,
+    "DisplayTotal": "$635.70",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0519",
+    "Subtotal": 10448.62,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 835.89,
+    "Total": 11284.51,
+    "DisplayTotal": "$11,284.51",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0520",
+    "Subtotal": 1559.09,
+    "Discount": 46.77,
+    "Freight": 0,
+    "Tax": 120.99,
+    "Total": 1633.31,
+    "DisplayTotal": "$1,633.31",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0521",
+    "Subtotal": 56932.57,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4127.61,
+    "Total": 61060.18,
+    "DisplayTotal": "$61,060.18",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0522",
+    "Subtotal": 56.42,
+    "Discount": 0.00,
+    "Freight": 34.40,
+    "Tax": 0.00,
+    "Total": 90.82,
+    "DisplayTotal": "$90.82",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0523",
+    "Subtotal": 27254.27,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2180.34,
+    "Total": 29434.61,
+    "DisplayTotal": "$29,434.61",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0524",
+    "Subtotal": 33308.70,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2664.70,
+    "Total": 35973.40,
+    "DisplayTotal": "$35,973.40",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0525",
+    "Subtotal": 37702.07,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2733.40,
+    "Total": 40435.47,
+    "DisplayTotal": "$40,435.47",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0526",
+    "Subtotal": 15386.12,
+    "Discount": 1153.96,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 14232.16,
+    "DisplayTotal": "$14,232.16",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0527",
+    "Subtotal": 18183.50,
+    "Discount": 545.50,
+    "Freight": 0,
+    "Tax": 1278.76,
+    "Total": 18916.76,
+    "DisplayTotal": "$18,916.76",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0528",
+    "Subtotal": 22596.63,
+    "Discount": 677.90,
+    "Freight": 0,
+    "Tax": 1753.50,
+    "Total": 23672.23,
+    "DisplayTotal": "$23,672.23",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval",
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0529",
+    "Subtotal": 66263.77,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 4804.12,
+    "Total": 71067.89,
+    "DisplayTotal": "$71,067.89",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0530",
+    "Subtotal": 291.25,
+    "Discount": 0.00,
+    "Freight": 31.95,
+    "Tax": 0.00,
+    "Total": 323.20,
+    "DisplayTotal": "$323.20",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0531",
+    "Subtotal": 5482.62,
+    "Discount": 411.20,
+    "Freight": 0,
+    "Tax": 367.68,
+    "Total": 5439.10,
+    "DisplayTotal": "$5,439.10",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0532",
+    "Subtotal": 11143.57,
+    "Discount": 835.77,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 10307.80,
+    "DisplayTotal": "$10,307.80",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0533",
+    "Subtotal": 43225.73,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3133.87,
+    "Total": 46359.60,
+    "DisplayTotal": "$46,359.60",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0534",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0535",
+    "Subtotal": 12584.14,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1006.73,
+    "Total": 13590.87,
+    "DisplayTotal": "$13,590.87",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0536",
+    "Subtotal": 19857.45,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1588.60,
+    "Total": 21446.05,
+    "DisplayTotal": "$21,446.05",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0537",
+    "Subtotal": 39238.59,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3139.09,
+    "Total": 42377.68,
+    "DisplayTotal": "$42,377.68",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0538",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0539",
+    "Subtotal": 9165.39,
+    "Discount": 274.96,
+    "Freight": 0,
+    "Tax": 711.23,
+    "Total": 9601.66,
+    "DisplayTotal": "$9,601.66",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0540",
+    "Subtotal": 22843.70,
+    "Discount": 1713.28,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 21130.42,
+    "DisplayTotal": "$21,130.42",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0541",
+    "Subtotal": 58393.23,
+    "Discount": 1751.80,
+    "Freight": 0,
+    "Tax": 4531.31,
+    "Total": 61172.74,
+    "DisplayTotal": "$61,172.74",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0542",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0543",
+    "Subtotal": 15366.76,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1114.09,
+    "Total": 16480.85,
+    "DisplayTotal": "$16,480.85",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0544",
+    "Subtotal": 270.21,
+    "Discount": 0.00,
+    "Freight": 27.53,
+    "Tax": 0.00,
+    "Total": 297.74,
+    "DisplayTotal": "$297.74",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0545",
+    "Subtotal": 44020.21,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3521.62,
+    "Total": 47541.83,
+    "DisplayTotal": "$47,541.83",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0546",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0547",
+    "Subtotal": 12552.59,
+    "Discount": 376.58,
+    "Freight": 0,
+    "Tax": 974.08,
+    "Total": 13150.09,
+    "DisplayTotal": "$13,150.09",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0548",
+    "Subtotal": 5803.45,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 464.28,
+    "Total": 6267.73,
+    "DisplayTotal": "$6,267.73",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0549",
+    "Subtotal": 42465.14,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3397.21,
+    "Total": 45862.35,
+    "DisplayTotal": "$45,862.35",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0550",
+    "Subtotal": 14389.87,
+    "Discount": 1079.24,
+    "Freight": 0,
+    "Tax": 1064.85,
+    "Total": 14375.48,
+    "DisplayTotal": "$14,375.48",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0551",
+    "Subtotal": 937.74,
+    "Discount": 70.33,
+    "Freight": 0,
+    "Tax": 69.39,
+    "Total": 936.80,
+    "DisplayTotal": "$936.80",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line BLT-M8-40: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0552",
+    "Subtotal": 10388.42,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 831.07,
+    "Total": 11219.49,
+    "DisplayTotal": "$11,219.49",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0553",
+    "Subtotal": 23124.73,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1676.54,
+    "Total": 24801.27,
+    "DisplayTotal": "$24,801.27",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0554",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0555",
+    "Subtotal": 9544.55,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 691.98,
+    "Total": 10236.53,
+    "DisplayTotal": "$10,236.53",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0556",
+    "Subtotal": 15994.53,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1279.56,
+    "Total": 17274.09,
+    "DisplayTotal": "$17,274.09",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0557",
+    "Subtotal": 47850.99,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3828.08,
+    "Total": 51679.07,
+    "DisplayTotal": "$51,679.07",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0558",
+    "Subtotal": 3030.21,
+    "Discount": 227.27,
+    "Freight": 0,
+    "Tax": 224.24,
+    "Total": 3027.18,
+    "DisplayTotal": "$3,027.18",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0559",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0560",
+    "Subtotal": 5274.94,
+    "Discount": 395.62,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 4879.32,
+    "DisplayTotal": "$4,879.32",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0561",
+    "Subtotal": 39339.99,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 3147.20,
+    "Total": 42487.19,
+    "DisplayTotal": "$42,487.19",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0562",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0563",
+    "Subtotal": 16946.65,
+    "Discount": 1271.00,
+    "Freight": 0,
+    "Tax": 1136.48,
+    "Total": 16812.13,
+    "DisplayTotal": "$16,812.13",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0564",
+    "Subtotal": 10822.04,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 10822.04,
+    "DisplayTotal": "$10,822.04",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0565",
+    "Subtotal": 61900.66,
+    "Discount": 1857.02,
+    "Freight": 0,
+    "Tax": 4353.16,
+    "Total": 64396.80,
+    "DisplayTotal": "$64,396.80",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0566",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0567",
+    "Subtotal": 14192.22,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1135.38,
+    "Total": 15327.60,
+    "DisplayTotal": "$15,327.60",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0568",
+    "Subtotal": 281.69,
+    "Discount": 21.13,
+    "Freight": 28.07,
+    "Tax": 23.09,
+    "Total": 311.72,
+    "DisplayTotal": "$311.72",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0569",
+    "Subtotal": 8568.72,
+    "Discount": 642.65,
+    "Freight": 0,
+    "Tax": 634.09,
+    "Total": 8560.16,
+    "DisplayTotal": "$8,560.16",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0570",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 0,
+    "Total": 25,
+    "DisplayTotal": "$25.00",
+    "Warnings": [
+      "Ignored line haz-glue: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0571",
+    "Subtotal": 11560.29,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 838.12,
+    "Total": 12398.41,
+    "DisplayTotal": "$12,398.41",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0572",
+    "Subtotal": 2234.05,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 178.72,
+    "Total": 2412.77,
+    "DisplayTotal": "$2,412.77",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0573",
+    "Subtotal": 12253.70,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 980.30,
+    "Total": 13234.00,
+    "DisplayTotal": "$13,234.00",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0574",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line VLV-200: quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0575",
+    "Subtotal": 14842.14,
+    "Discount": 445.26,
+    "Freight": 0,
+    "Tax": 1043.77,
+    "Total": 15440.65,
+    "DisplayTotal": "$15,440.65",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0576",
+    "Subtotal": 20732.66,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 20732.66,
+    "DisplayTotal": "$20,732.66",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0577",
+    "Subtotal": 27678.24,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2006.67,
+    "Total": 29684.91,
+    "DisplayTotal": "$29,684.91",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0578",
+    "Subtotal": 3633.67,
+    "Discount": 109.01,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 3524.66,
+    "DisplayTotal": "$3,524.66",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0579",
+    "Subtotal": 2470.29,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 197.62,
+    "Total": 2667.91,
+    "DisplayTotal": "$2,667.91",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0580",
+    "Subtotal": 15312.44,
+    "Discount": 1148.43,
+    "Freight": 0,
+    "Tax": 1133.12,
+    "Total": 15297.13,
+    "DisplayTotal": "$15,297.13",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0581",
+    "Subtotal": 15296.06,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1223.68,
+    "Total": 16519.74,
+    "DisplayTotal": "$16,519.74",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0582",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line : quantity -1"
+    ]
+  },
+  {
+    "Id": "gen-0583",
+    "Subtotal": 25414.79,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 2033.18,
+    "Total": 27447.97,
+    "DisplayTotal": "$27,447.97",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0584",
+    "Subtotal": 15333.85,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 15333.85,
+    "DisplayTotal": "$15,333.85",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0585",
+    "Subtotal": 6281.44,
+    "Discount": 471.11,
+    "Freight": 0,
+    "Tax": 421.25,
+    "Total": 6231.58,
+    "DisplayTotal": "$6,231.58",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0586",
+    "Subtotal": 388.61,
+    "Discount": 0.00,
+    "Freight": 32.48,
+    "Tax": 33.69,
+    "Total": 454.78,
+    "DisplayTotal": "$454.78",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0587",
+    "Subtotal": 0,
+    "Discount": 0.00,
+    "Freight": 25,
+    "Tax": 2.00,
+    "Total": 27.00,
+    "DisplayTotal": "$27.00",
+    "Warnings": [
+      "Ignored line BLT-M8-40: quantity 0",
+      "Ignored line HAZ-SOLV-5: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0588",
+    "Subtotal": 14735.36,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1178.83,
+    "Total": 15914.19,
+    "DisplayTotal": "$15,914.19",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0589",
+    "Subtotal": 16100.25,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 1167.27,
+    "Total": 17267.52,
+    "DisplayTotal": "$17,267.52",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0590",
+    "Subtotal": 1252.37,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 100.19,
+    "Total": 1352.56,
+    "DisplayTotal": "$1,352.56",
+    "Warnings": [
+      "Hazardous item haz-glue requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0591",
+    "Subtotal": 0,
+    "Discount": 0,
+    "Freight": 25,
+    "Tax": 1.81,
+    "Total": 26.81,
+    "DisplayTotal": "$26.81",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0",
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0592",
+    "Subtotal": 8408.14,
+    "Discount": 630.61,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 7777.53,
+    "DisplayTotal": "$7,777.53",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0593",
+    "Subtotal": 51675.00,
+    "Discount": 1550.25,
+    "Freight": 0,
+    "Tax": 4009.98,
+    "Total": 54134.73,
+    "DisplayTotal": "$54,134.73",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval",
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0594",
+    "Subtotal": 916.16,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 916.16,
+    "DisplayTotal": "$916.16",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0595",
+    "Subtotal": 3353.40,
+    "Discount": 0.00,
+    "Freight": 0,
+    "Tax": 243.12,
+    "Total": 3596.52,
+    "DisplayTotal": "$3,596.52",
+    "Warnings": [
+      "Ignored line GSK-12: quantity 0"
+    ]
+  },
+  {
+    "Id": "gen-0596",
+    "Subtotal": 25899.74,
+    "Discount": 1942.48,
+    "Freight": 0,
+    "Tax": 0.00,
+    "Total": 23957.26,
+    "DisplayTotal": "$23,957.26",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0597",
+    "Subtotal": 26306.68,
+    "Discount": 789.20,
+    "Freight": 0,
+    "Tax": 1850.02,
+    "Total": 27367.50,
+    "DisplayTotal": "$27,367.50",
+    "Warnings": [
+      "Hazardous item HAZ-SOLV-5 requires manual freight approval"
+    ]
+  },
+  {
+    "Id": "gen-0598",
+    "Subtotal": 13110.03,
+    "Discount": 393.30,
+    "Freight": 0,
+    "Tax": 1017.34,
+    "Total": 13734.07,
+    "DisplayTotal": "$13,734.07",
+    "Warnings": []
+  },
+  {
+    "Id": "gen-0599",
+    "Subtotal": 24816.85,
+    "Discount": 744.51,
+    "Freight": 0,
+    "Tax": 1925.79,
+    "Total": 25998.13,
+    "DisplayTotal": "$25,998.13",
+    "Warnings": []
+  }
+]

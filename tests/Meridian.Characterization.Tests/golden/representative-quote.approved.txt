@@ -1,0 +1,9 @@
+Subtotal:      392.45
+Discount:      29.43
+Freight:       33.14
+Tax:           28.72
+Total:         424.88
+Display total: $424.88
+Warnings:
+  - Hazardous item HAZ-SOLV-5 requires manual freight approval
+  - Ignored line GSK-12: quantity 0

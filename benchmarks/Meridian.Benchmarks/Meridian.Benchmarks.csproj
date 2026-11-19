@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Legacy vs modern pricing over the characterization corpus (Chapter 19).
+       Run with dotnet run, Release configuration, project benchmarks/Meridian.Benchmarks -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <!-- Benchmark classes must be public and unsealed for BenchmarkDotNet. -->
+    <NoWarn>$(NoWarn);CA1515;CA1822;CA1001</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Meridian.Legacy.Pricing\Meridian.Legacy.Pricing.csproj" />
+    <ProjectReference Include="..\..\src\Meridian.Domain\Meridian.Domain.csproj" />
+    <!-- Reuse the deterministic corpus; do not copy it. -->
+    <Compile Include="..\..\tests\Meridian.Characterization.Tests\CorpusGenerator.cs" Link="Corpus\CorpusGenerator.cs" />
+  </ItemGroup>
+</Project>

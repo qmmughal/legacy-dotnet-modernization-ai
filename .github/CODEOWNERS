@@ -1,0 +1,8 @@
+# Human owners who must approve changes in sensitive areas.
+*                                   @qmmughal
+/legacy/                            @qmmughal
+/tests/**/golden/                   @qmmughal
+/src/Meridian.Web/Identity/         @qmmughal
+/src/Meridian.Web/Endpoints/Account*  @qmmughal
+/src/Meridian.Gateway/appsettings.json @qmmughal
+/Directory.Packages.props           @qmmughal

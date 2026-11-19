@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/Meridian.Benchmarks/Meridian.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Meridian.Data/Meridian.Data.csproj" />
+    <Project Path="src/Meridian.Domain/Meridian.Domain.csproj" />
+    <Project Path="src/Meridian.Gateway/Meridian.Gateway.csproj" />
+    <Project Path="src/Meridian.Legacy.Pricing/Meridian.Legacy.Pricing.csproj" />
+    <Project Path="src/Meridian.PricingService/Meridian.PricingService.csproj" />
+    <Project Path="src/Meridian.Web/Meridian.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Meridian.Characterization.Tests/Meridian.Characterization.Tests.csproj" />
+    <Project Path="tests/Meridian.Data.Tests/Meridian.Data.Tests.csproj" />
+    <Project Path="tests/Meridian.Gateway.Tests/Meridian.Gateway.Tests.csproj" />
+    <Project Path="tests/Meridian.PricingService.Tests/Meridian.PricingService.Tests.csproj" />
+    <Project Path="tests/Meridian.Web.Tests/Meridian.Web.Tests.csproj" />
+  </Folder>
+</Solution>

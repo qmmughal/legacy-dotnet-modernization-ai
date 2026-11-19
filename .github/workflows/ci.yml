@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # guards diff against the base branch
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - name: Restore (with NuGet audit)
+        run: dotnet restore Meridian.slnx
+      - name: Build (warnings are errors)
+        run: dotnet build Meridian.slnx --no-restore -warnaserror
+      - name: Test
+        run: dotnet test --solution Meridian.slnx --no-build
+      - name: Guard golden files
+        if: github.event_name == 'pull_request'
+        run: bash scripts/check-golden-unchanged.sh "origin/${{ github.base_ref }}"
+      - name: Diff budget
+        if: github.event_name == 'pull_request'
+        run: bash scripts/check-diff-budget.sh "origin/${{ github.base_ref }}" 400

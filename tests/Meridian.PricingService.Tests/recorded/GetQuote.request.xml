@@ -1,0 +1,13 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetQuote xmlns="http://meridianparts.example/pricing/2014">
+      <request xmlns:a="http://meridianparts.example/pricing/2014" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:CustomerAccount>C-1001</a:CustomerAccount>
+        <a:Lines>
+          <a:QuoteLineDto><a:ProductCode>VLV-200</a:ProductCode><a:Quantity>2</a:Quantity></a:QuoteLineDto>
+          <a:QuoteLineDto><a:ProductCode>HAZ-SOLV-5</a:ProductCode><a:Quantity>1</a:Quantity></a:QuoteLineDto>
+        </a:Lines>
+      </request>
+    </GetQuote>
+  </s:Body>
+</s:Envelope>

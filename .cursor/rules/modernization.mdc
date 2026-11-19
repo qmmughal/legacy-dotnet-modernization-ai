@@ -1,0 +1,9 @@
+---
+description: Meridian modernization rules for all agent work in this repository
+alwaysApply: true
+---
+Follow AGENTS.md at the repository root. Highlights:
+- legacy/ is read-only; golden and *.approved.* files are human-owned.
+- Behaviour must not change unless the task says so and names an approver.
+- Package versions only from Directory.Packages.props; never guess a version.
+- Done means: `dotnet build Meridian.slnx -warnaserror` and `dotnet test --solution Meridian.slnx` pass.

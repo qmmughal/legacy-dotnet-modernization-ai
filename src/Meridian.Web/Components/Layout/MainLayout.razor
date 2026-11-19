@@ -1,0 +1,17 @@
+@inherits LayoutComponentBase
+
+<header>
+    <strong>Meridian Parts</strong>
+    <AuthorizeView>
+        <Authorized>
+            <span>Signed in as @context.User.Identity?.Name</span>
+            <form method="post" action="/account/logout">
+                <AntiforgeryToken />
+                <button type="submit">Sign out</button>
+            </form>
+        </Authorized>
+    </AuthorizeView>
+</header>
+<main>
+    @Body
+</main>

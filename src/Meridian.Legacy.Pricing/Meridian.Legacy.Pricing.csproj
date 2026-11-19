@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Compiles the UNCHANGED legacy pricing source from legacy/ so that
+       characterization tests run the real legacy rules. Never edit the linked files. -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <AnalysisLevel>none</AnalysisLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\legacy\MeridianPortal.Core\Pricing\QuoteModels.cs" Link="Legacy\QuoteModels.cs" />
+    <Compile Include="..\..\legacy\MeridianPortal.Core\Pricing\PricingEngine.cs" Link="Legacy\PricingEngine.cs" />
+  </ItemGroup>
+</Project>

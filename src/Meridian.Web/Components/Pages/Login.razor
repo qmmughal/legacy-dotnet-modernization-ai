@@ -1,0 +1,25 @@
+@page "/account/login"
+@* Static server rendering: a plain HTML form posting to /account/login.
+   Replaces Account/Login.aspx and its LoginButton_Click postback handler. *@
+
+<PageTitle>Sign in</PageTitle>
+<h1>Sign in</h1>
+
+@if (Error is not null)
+{
+    <p class="error">Invalid user name or password.</p>
+}
+
+<form method="post" action="/account/login">
+    <AntiforgeryToken />
+    <input type="hidden" name="returnUrl" value="@ReturnUrl" />
+    <p><label>User name <input name="userName" autocomplete="username" required /></label></p>
+    <p><label>Password <input name="password" type="password" autocomplete="current-password" required /></label></p>
+    <p><label><input name="rememberMe" type="checkbox" value="true" /> Remember me</label></p>
+    <button type="submit">Sign in</button>
+</form>
+
+@code {
+    [SupplyParameterFromQuery] public string? ReturnUrl { get; set; }
+    [SupplyParameterFromQuery] public string? Error { get; set; }
+}

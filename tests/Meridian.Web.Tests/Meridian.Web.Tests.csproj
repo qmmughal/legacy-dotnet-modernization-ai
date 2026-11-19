@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Meridian.Web\Meridian.Web.csproj" />
+    <ProjectReference Include="..\..\src\Meridian.Legacy.Pricing\Meridian.Legacy.Pricing.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+  </ItemGroup>
+</Project>

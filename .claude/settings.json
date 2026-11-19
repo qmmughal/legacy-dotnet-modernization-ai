@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build *)",
+      "Bash(dotnet test *)",
+      "Bash(dotnet run scripts/inventory.cs *)",
+      "Bash(git diff *)",
+      "Bash(git status *)"
+    ],
+    "ask": [
+      "Bash(dotnet add *)",
+      "Bash(git commit *)"
+    ],
+    "deny": [
+      "Edit(/legacy/**)",
+      "Edit(/tests/**/golden/**)",
+      "Edit(**/*.approved.*)",
+      "Read(**/appsettings.Production.json)",
+      "Read(**/*.pfx)",
+      "Bash(git push *)",
+      "Bash(curl *)"
+    ]
+  }
+}

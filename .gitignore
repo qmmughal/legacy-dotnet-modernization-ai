@@ -1,0 +1,13 @@
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+*.received.*
+.vs/
+.vscode/
+*.user
+.claude/settings.local.json
+CLAUDE.local.md
+TestResults/
+BenchmarkDotNet.Artifacts/

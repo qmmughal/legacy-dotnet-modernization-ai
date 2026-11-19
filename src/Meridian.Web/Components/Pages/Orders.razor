@@ -1,0 +1,70 @@
+@page "/orders"
+@attribute [Authorize]
+@rendermode InteractiveServer
+@inject IDbContextFactory<MeridianDbContext> DbFactory
+@inject NavigationManager Navigation
+@using System.Security.Claims
+@using Meridian.Web.Identity
+
+@* Replaces Orders.aspx: GridView -> QuickGrid, AutoPostBack DropDownList ->
+   @bind:after, Session["OrdersStatusFilter"] -> query string (?status=Q). *@
+
+<PageTitle>Orders</PageTitle>
+<h1>Recent orders</h1>
+
+<label>
+    Status
+    <select @bind="Status" @bind:after="OnStatusChangedAsync">
+        <option value="">All</option>
+        <option value="Q">Quotes</option>
+        <option value="O">Orders</option>
+    </select>
+</label>
+
+@if (orders is null)
+{
+    <p>Loading…</p>
+}
+else
+{
+    <QuickGrid Items="orders" Pagination="pagination">
+        <TemplateColumn Title="Quote">
+            @* Order detail has not moved yet (see docs/migration-log.md), so link to
+               the legacy page; the gateway's fallback route sends it to IIS. *@
+            <a href="@($"/OrderDetail.aspx?id={context.OrderId}")">@context.QuoteNumber</a>
+        </TemplateColumn>
+        <PropertyColumn Property="o => o.CustomerName" Title="Customer" />
+        <PropertyColumn Property="o => o.CreatedOn" Format="d" Title="Created" />
+        <PropertyColumn Property="o => o.Total" Format="C" Title="Total" />
+    </QuickGrid>
+    <Paginator State="pagination" />
+}
+
+@code {
+    private readonly PaginationState pagination = new() { ItemsPerPage = 20 };
+    private IQueryable<OrderSummary>? orders;
+
+    [CascadingParameter] private Task<AuthenticationState> AuthState { get; set; } = default!;
+
+    [SupplyParameterFromQuery(Name = "status")] public string? Status { get; set; }
+
+    protected override async Task OnInitializedAsync() => await LoadAsync();
+
+    private async Task OnStatusChangedAsync()
+    {
+        Navigation.NavigateTo(Navigation.GetUriWithQueryParameter("status", Status), replace: true);
+        await pagination.SetCurrentPageIndexAsync(0);
+        await LoadAsync();
+    }
+
+    private async Task LoadAsync()
+    {
+        var user = (await AuthState).User;
+        var isAdmin = user.IsInRole("Admin");
+        var region = user.FindFirstValue(PortalClaimsFactory.RegionClaim);
+
+        await using var db = await DbFactory.CreateDbContextAsync();
+        var list = await db.RecentOrders(Status, isAdmin, region).ToListAsync();
+        orders = list.AsQueryable();
+    }
+}

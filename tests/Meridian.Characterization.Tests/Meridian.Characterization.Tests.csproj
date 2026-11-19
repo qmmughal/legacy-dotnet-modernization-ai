@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Meridian.Legacy.Pricing\Meridian.Legacy.Pricing.csproj" />
+    <ProjectReference Include="..\..\src\Meridian.Domain\Meridian.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="golden\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
