@@ -1,7 +1,10 @@
 # legacy-dotnet-modernization-ai
 
-Companion repository for **Modernizing Legacy .NET with AI Agents** by Qaiser Mehmood
-(2026). It contains a small legacy ASP.NET Web Forms / WCF / EF6 portal ("before"),
+This is the companion code for the book
+[*Modernizing Legacy .NET with AI Agents*](https://mughalicious404.gumroad.com/l/modernizing-legacy-dotnet)
+by Qaiser Mehmood (2026). Kindle coming soon.
+
+It contains a small legacy ASP.NET Web Forms / WCF / EF6 portal ("before"),
 its modernized .NET 10 replacement ("after"), and the tests, agent contracts, and
 scripts the book uses to move from one to the other safely.
 
@@ -78,6 +81,14 @@ To sign in during development, create a user with `UserManager` or use the test
   copy of production schema before cut-over.
 - The System.Web adapters remote-app path (`RemoteApp:Uri`) compiles and is
   wired, but needs a running ASP.NET Framework app to exercise.
+
+## More books by the author
+
+- [*Building AI Agents with C# and .NET*](https://www.amazon.com/dp/B0HR12GJ3W) — Designing, tooling, and orchestrating AI agents in C# on .NET.
+- [*Building AI Agents with Python*](https://www.amazon.com/dp/B0HR1SQCXL) — Agent patterns in Python.
+- [*Evaluating and Shipping AI Agents*](https://www.amazon.com/dp/B0HRRP265M) — Testing, evaluation, and operations for agent systems.
+- [*Local vs Cloud LLMs for Business*](https://www.amazon.com/dp/B0HRRTZCYJ) — When to run models locally versus in the cloud.
+- [*Sovereign AI vs Cloud AI vs Offline AI*](https://www.amazon.com/dp/B0HSL5SXZ4) — Deployment choices around control, privacy, and connectivity.
 
 ## License
 
